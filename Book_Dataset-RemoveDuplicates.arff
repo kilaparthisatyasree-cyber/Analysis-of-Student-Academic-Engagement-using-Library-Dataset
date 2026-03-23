@@ -1,0 +1,184 @@
+@relation Book_Dataset-weka.filters.unsupervised.instance.RemoveDuplicates
+
+@attribute Book_ID {B2000,B2001,B2002,B2003,B2004,B2005,B2006,B2007,B2008,B2009,B2010,B2011,B2012,B2013,B2014,B2015,B2016,B2017,B2018,B2019,B2020,B2021,B2022,B2023,B2024,B2025,B2026,B2027,B2028,B2029,B2030,B2031,B2032,B2033,B2034,B2035,B2036,B2037,B2038,B2039,B2040,B2041,B2042,B2043,B2044,B2045,B2046,B2047,B2048,B2049,B2050,B2051,B2052,B2053,B2054,B2055,B2056,B2057,B2058,B2059,B2060,B2061,B2062,B2063,B2064,B2065,B2066,B2067,B2068,B2069,B2070,B2071,B2072,B2073,B2074,B2075,B2076,B2077,B2078,B2079,B2080,B2081,B2082,B2083,B2084,B2085,B2086,B2087,B2088,B2089,B2090,B2091,B2092,B2093,B2094,B2095,B2096,B2097,B2098,B2099,B2100,B2101,B2102,B2103,B2104,B2105,B2106,B2107,B2108,B2109,B2110,B2111,B2112,B2113,B2114,B2115,B2116,B2117,B2118,B2119,B2120,B2121,B2122,B2123,B2124,B2125,B2126,B2127,B2128,B2129,B2130,B2131,B2132,B2133,B2134,B2135,B2136,B2137,B2138,B2139,B2140,B2141,B2142,B2143,B2144,B2145,B2146,B2147,B2148,B2149,B2150,B2151,B2152,B2153,B2154,B2155,B2156,B2157,B2158,B2159}
+@attribute Book_Title {Book_0,Book_1,Book_2,Book_3,Book_4,Book_5,Book_6,Book_7,Book_8,Book_9,Book_10,Book_11,Book_12,Book_13,Book_14,Book_15,Book_16,Book_17,Book_18,Book_19,Book_20,Book_21,Book_22,Book_23,Book_24,Book_25,Book_26,Book_27,Book_28,Book_29,Book_30,Book_31,Book_32,Book_33,Book_34,Book_35,Book_36,Book_37,Book_38,Book_39,Book_40,Book_41,Book_42,Book_43,Book_44,Book_45,Book_46,Book_47,Book_48,Book_49,Book_50,Book_51,Book_52,Book_53,Book_54,Book_55,Book_56,Book_57,Book_58,Book_59,Book_60,Book_61,Book_62,Book_63,Book_64,Book_65,Book_66,Book_67,Book_68,Book_69,Book_70,Book_71,Book_72,Book_73,Book_74,Book_75,Book_76,Book_77,Book_78,Book_79,Book_80,Book_81,Book_82,Book_83,Book_84,Book_85,Book_86,Book_87,Book_88,Book_89,Book_90,Book_91,Book_92,Book_93,Book_94,Book_95,Book_96,Book_97,Book_98,Book_99,Book_100,Book_101,Book_102,Book_103,Book_104,Book_105,Book_106,Book_107,Book_108,Book_109,Book_110,Book_111,Book_112,Book_113,Book_114,Book_115,Book_116,Book_117,Book_118,Book_119,Book_120,Book_121,Book_122,Book_123,Book_124,Book_125,Book_126,Book_127,Book_128,Book_129,Book_130,Book_131,Book_132,Book_133,Book_134,Book_135,Book_136,Book_137,Book_138,Book_139,Book_140,Book_141,Book_142,Book_143,Book_144,Book_145,Book_146,Book_147,Book_148,Book_149,Book_150,Book_151,Book_152,Book_153,Book_154,Book_155,Book_156,Book_157,Book_158,Book_159}
+@attribute Author_Name {Author_0,Author_1,Author_2,Author_3,Author_4,Author_5,Author_6,Author_7,Author_8,Author_9,Author_10,Author_11,Author_12,Author_13,Author_14,Author_15,Author_16,Author_17,Author_18,Author_19,Author_20,Author_21,Author_22,Author_23,Author_24,Author_25,Author_26,Author_27,Author_28,Author_29,Author_30,Author_31,Author_32,Author_33,Author_34,Author_35,Author_36,Author_37,Author_38,Author_39,Author_40,Author_41,Author_42,Author_43,Author_44,Author_45,Author_46,Author_47,Author_48,Author_49,Author_50,Author_51,Author_52,Author_53,Author_54,Author_55,Author_56,Author_57,Author_58,Author_59,Author_60,Author_61,Author_62,Author_63,Author_64,Author_65,Author_66,Author_67,Author_68,Author_69,Author_70,Author_71,Author_72,Author_73,Author_74,Author_75,Author_76,Author_77,Author_78,Author_79,Author_80,Author_81,Author_82,Author_83,Author_84,Author_85,Author_86,Author_87,Author_88,Author_89,Author_90,Author_91,Author_92,Author_93,Author_94,Author_95,Author_96,Author_97,Author_98,Author_99,Author_100,Author_101,Author_102,Author_103,Author_104,Author_105,Author_106,Author_107,Author_108,Author_109,Author_110,Author_111,Author_112,Author_113,Author_114,Author_115,Author_116,Author_117,Author_118,Author_119,Author_120,Author_121,Author_122,Author_123,Author_124,Author_125,Author_126,Author_127,Author_128,Author_129,Author_130,Author_131,Author_132,Author_133,Author_134,Author_135,Author_136,Author_137,Author_138,Author_139,Author_140,Author_141,Author_142,Author_143,Author_144,Author_145,Author_146,Author_147,Author_148,Author_149,Author_150,Author_151,Author_152,Author_153,Author_154,Author_155,Author_156,Author_157,Author_158,Author_159}
+@attribute Publisher {Pearson,Elsevier,Springer,Oxford,'McGraw Hill'}
+@attribute Book_Category {Math,Mechanical,Science,Electronics,Civil,Programming}
+@attribute ISBN_Number numeric
+@attribute Book_Edition numeric
+@attribute Language {Telugu,English,Hindi}
+@attribute Book_Price numeric
+@attribute Book_Rack_No numeric
+@attribute Book_Availability {No,Yes}
+@attribute Book_Condition {Damaged,Average,Good}
+@attribute Damage_Report {Minor,None,Major}
+@attribute Publication_Year numeric
+@attribute Pages numeric
+@attribute Binding_Type {Paperback,Hardcover}
+@attribute Edition_Type {Second,Revised,First}
+@attribute Print_Type {Color,Black&White}
+@attribute Genre {Textbook,Reference,Guide}
+@attribute Country_of_Publication {USA,India,UK}
+
+@data
+B2000,Book_0,Author_0,Pearson,Math,8105701501,3,Telugu,873.53,1,No,Damaged,Minor,2018,260,Paperback,Second,Color,Textbook,USA
+B2001,Book_1,Author_1,Elsevier,Mechanical,5095830615,4,Telugu,958.53,45,No,Average,Minor,2019,244,Paperback,Second,Black&White,Textbook,USA
+B2002,Book_2,Author_2,Springer,Science,3543654857,4,English,781.43,15,No,Average,None,2023,790,Hardcover,Revised,Black&White,Textbook,India
+B2003,Book_3,Author_3,Oxford,Math,7306513296,4,English,929.15,3,Yes,Damaged,None,2018,179,Paperback,Revised,Color,Textbook,USA
+B2004,Book_4,Author_4,'McGraw Hill',Electronics,7435642985,5,Hindi,233.05,50,Yes,Good,Major,2024,433,Paperback,Second,Black&White,Reference,USA
+B2005,Book_5,Author_5,'McGraw Hill',Math,5961857822,2,Hindi,510.39,29,No,Damaged,None,2019,733,Hardcover,Revised,Color,Guide,USA
+B2006,Book_6,Author_6,Elsevier,Civil,2588644191,2,Hindi,645.99,7,Yes,Damaged,None,2024,771,Hardcover,Second,Color,Guide,USA
+B2007,Book_7,Author_7,Elsevier,Math,4660065612,5,English,249.1,37,No,Damaged,None,2020,650,Hardcover,Second,Color,Reference,USA
+B2008,Book_8,Author_8,Oxford,Electronics,2395357410,5,Telugu,374.96,11,No,Good,Major,2020,431,Paperback,First,Black&White,Reference,UK
+B2009,Book_9,Author_9,Oxford,Science,6385509358,5,English,724.17,49,Yes,Damaged,None,2019,631,Paperback,First,Black&White,Textbook,USA
+B2010,Book_10,Author_10,Springer,Programming,7841745657,5,Hindi,332.34,36,No,Average,Minor,2021,767,Paperback,Revised,Color,Reference,USA
+B2011,Book_11,Author_11,Springer,Civil,6634271326,1,Hindi,406.99,7,No,Damaged,None,2021,612,Hardcover,Revised,Black&White,Textbook,India
+B2012,Book_12,Author_12,Springer,Science,3001809173,4,Telugu,240.45,17,No,Damaged,Major,2018,504,Hardcover,Second,Color,Textbook,India
+B2013,Book_13,Author_13,Oxford,Math,1476579945,1,Hindi,506.68,27,No,Damaged,None,2020,304,Hardcover,Second,Black&White,Guide,USA
+B2014,Book_14,Author_14,Pearson,Programming,3716081557,3,English,714.93,1,No,Average,None,2024,252,Paperback,Second,Color,Textbook,UK
+B2015,Book_15,Author_15,Springer,Science,9325872680,2,Hindi,866.6,27,Yes,Good,None,2022,606,Paperback,Revised,Color,Reference,USA
+B2016,Book_16,Author_16,Elsevier,Science,7018992193,5,English,411.7,46,Yes,Good,Minor,2021,514,Hardcover,First,Black&White,Guide,UK
+B2017,Book_17,Author_17,Pearson,Science,5893993062,1,Telugu,470.45,3,Yes,Average,None,2022,512,Paperback,Second,Color,Reference,India
+B2018,Book_18,Author_18,Springer,Electronics,4193047300,4,Telugu,650.78,31,No,Damaged,Minor,2022,725,Hardcover,Revised,Black&White,Guide,USA
+B2019,Book_19,Author_19,Oxford,Math,3853431395,2,English,683.45,6,Yes,Damaged,Major,2019,718,Paperback,Revised,Color,Textbook,UK
+B2020,Book_20,Author_20,Springer,Programming,7561428098,1,Hindi,687.1,23,No,Damaged,None,2023,741,Paperback,Revised,Black&White,Textbook,USA
+B2021,Book_21,Author_21,Pearson,Science,9538108318,1,Telugu,890.68,28,No,Damaged,Minor,2018,749,Hardcover,Revised,Color,Guide,USA
+B2022,Book_22,Author_22,Springer,Civil,9095104320,2,Telugu,531.19,35,No,Damaged,Major,2022,630,Paperback,First,Color,Textbook,India
+B2023,Book_23,Author_23,Oxford,Electronics,6995891173,2,English,877.98,36,Yes,Good,Major,2023,373,Hardcover,Revised,Color,Textbook,USA
+B2024,Book_24,Author_24,'McGraw Hill',Science,9895171126,3,Telugu,816.69,11,No,Good,Major,2023,185,Paperback,Revised,Black&White,Reference,India
+B2025,Book_25,Author_25,Pearson,Civil,9695455182,3,Telugu,277.63,8,No,Damaged,None,2019,413,Hardcover,Second,Color,Textbook,UK
+B2026,Book_26,Author_26,Elsevier,Mechanical,6796111517,4,Telugu,850.18,41,No,Good,None,2023,192,Hardcover,First,Color,Guide,India
+B2027,Book_27,Author_27,Oxford,Math,1201461174,3,English,352.15,28,Yes,Damaged,Minor,2020,308,Paperback,Revised,Color,Reference,USA
+B2028,Book_28,Author_28,Elsevier,Science,6121663120,4,Hindi,760.31,14,No,Good,Major,2019,450,Paperback,First,Color,Guide,India
+B2029,Book_29,Author_29,Elsevier,Mechanical,8596019555,4,English,779.68,34,No,Good,Minor,2022,546,Paperback,Second,Black&White,Guide,UK
+B2030,Book_30,Author_30,'McGraw Hill',Mechanical,8625651834,4,Hindi,343.35,3,No,Good,Minor,2022,124,Hardcover,Revised,Color,Reference,UK
+B2031,Book_31,Author_31,Elsevier,Electronics,6328994672,1,Hindi,703.41,30,Yes,Good,Major,2021,656,Paperback,Revised,Color,Reference,UK
+B2032,Book_32,Author_32,Elsevier,Electronics,7313003256,2,Telugu,582.59,46,Yes,Good,Major,2018,485,Hardcover,Revised,Black&White,Reference,India
+B2033,Book_33,Author_33,Oxford,Science,9388552709,3,English,351.49,30,Yes,Good,Major,2020,706,Hardcover,First,Black&White,Guide,India
+B2034,Book_34,Author_34,Pearson,Civil,8984788399,4,Hindi,671.71,5,No,Average,Minor,2021,373,Paperback,Revised,Color,Guide,USA
+B2035,Book_35,Author_35,'McGraw Hill',Mechanical,5953912048,5,Hindi,273.35,37,No,Good,None,2020,558,Hardcover,Second,Color,Guide,USA
+B2036,Book_36,Author_36,Elsevier,Electronics,8475532324,1,Hindi,200.11,11,Yes,Average,Major,2018,143,Hardcover,Revised,Black&White,Textbook,USA
+B2037,Book_37,Author_37,Oxford,Science,1606140711,2,Telugu,920.63,45,No,Good,Major,2023,304,Paperback,First,Black&White,Reference,India
+B2038,Book_38,Author_38,'McGraw Hill',Civil,8353939742,4,English,341.81,10,Yes,Good,Major,2022,484,Hardcover,First,Color,Textbook,UK
+B2039,Book_39,Author_39,'McGraw Hill',Math,2723314954,5,Telugu,896.52,13,No,Damaged,Minor,2023,693,Hardcover,Second,Black&White,Textbook,UK
+B2040,Book_40,Author_40,Elsevier,Mechanical,4707339810,2,Hindi,357.33,36,No,Good,Minor,2020,719,Hardcover,Revised,Black&White,Textbook,India
+B2041,Book_41,Author_41,Oxford,Science,9786470255,1,Hindi,975.83,14,No,Average,Major,2021,549,Paperback,First,Color,Reference,India
+B2042,Book_42,Author_42,Oxford,Science,8457930958,1,English,743.03,16,No,Average,Major,2019,420,Paperback,Revised,Color,Guide,India
+B2043,Book_43,Author_43,Pearson,Math,7375405499,3,English,877.76,25,No,Good,None,2024,460,Hardcover,Second,Color,Reference,UK
+B2044,Book_44,Author_44,Elsevier,Science,4874631168,2,Hindi,445.03,21,No,Damaged,Minor,2023,233,Paperback,First,Color,Reference,UK
+B2045,Book_45,Author_45,Springer,Math,7535588425,2,English,579.17,9,Yes,Good,Major,2019,164,Paperback,Revised,Black&White,Textbook,UK
+B2046,Book_46,Author_46,Springer,Civil,6292882647,1,English,282.72,23,Yes,Average,Major,2021,392,Paperback,Revised,Black&White,Guide,UK
+B2047,Book_47,Author_47,Oxford,Mechanical,5938669432,4,English,320.56,49,No,Damaged,Major,2018,302,Paperback,Revised,Color,Reference,India
+B2048,Book_48,Author_48,'McGraw Hill',Programming,8614295240,2,Telugu,366.33,26,Yes,Good,Minor,2022,558,Hardcover,Second,Color,Reference,UK
+B2049,Book_49,Author_49,'McGraw Hill',Civil,4245623414,5,Hindi,550.64,40,No,Average,Major,2020,510,Hardcover,First,Black&White,Reference,India
+B2050,Book_50,Author_50,'McGraw Hill',Science,2441876174,3,Telugu,552.28,7,No,Average,None,2022,674,Hardcover,First,Color,Guide,USA
+B2051,Book_51,Author_51,Pearson,Electronics,3804009032,3,Hindi,672.18,49,Yes,Average,None,2020,235,Paperback,Second,Black&White,Reference,UK
+B2052,Book_52,Author_52,Springer,Math,3970213533,2,Hindi,564.87,42,Yes,Average,Major,2020,127,Hardcover,Revised,Color,Textbook,UK
+B2053,Book_53,Author_53,Pearson,Programming,9394670898,4,Telugu,745.71,33,Yes,Average,Minor,2020,106,Paperback,First,Black&White,Reference,USA
+B2054,Book_54,Author_54,Oxford,Math,9750312359,5,English,270.34,31,Yes,Average,Major,2024,291,Paperback,Second,Black&White,Textbook,USA
+B2055,Book_55,Author_55,'McGraw Hill',Civil,8029783138,4,Telugu,752.71,9,Yes,Damaged,None,2019,241,Hardcover,Revised,Color,Guide,India
+B2056,Book_56,Author_56,Pearson,Math,3421855792,2,Telugu,985.86,32,Yes,Damaged,Major,2021,700,Paperback,Second,Color,Guide,India
+B2057,Book_57,Author_57,'McGraw Hill',Mechanical,9705838512,2,Hindi,341.36,44,Yes,Average,Minor,2018,495,Paperback,Revised,Black&White,Textbook,USA
+B2058,Book_58,Author_58,Elsevier,Mechanical,9534584492,5,English,406.23,33,Yes,Average,Major,2024,487,Paperback,Revised,Black&White,Guide,USA
+B2059,Book_59,Author_59,Springer,Science,6181710473,5,Hindi,627.06,50,No,Damaged,None,2020,786,Paperback,Second,Color,Guide,India
+B2060,Book_60,Author_60,'McGraw Hill',Civil,9691852455,5,English,520.79,49,Yes,Average,Major,2021,489,Paperback,First,Black&White,Reference,UK
+B2061,Book_61,Author_61,Elsevier,Math,7614460540,4,Hindi,227.62,17,No,Damaged,None,2023,593,Paperback,First,Black&White,Guide,UK
+B2062,Book_62,Author_62,Pearson,Mechanical,3744190436,2,Hindi,808.5,32,Yes,Average,None,2021,725,Paperback,Revised,Black&White,Guide,UK
+B2063,Book_63,Author_63,Pearson,Math,4582096924,3,Hindi,460.06,39,Yes,Good,None,2023,418,Paperback,Revised,Black&White,Textbook,India
+B2064,Book_64,Author_64,'McGraw Hill',Math,9692510363,5,English,468.01,26,No,Average,Minor,2024,760,Paperback,Second,Color,Textbook,India
+B2065,Book_65,Author_65,Elsevier,Mechanical,9780252713,2,English,843.79,25,No,Average,Minor,2023,480,Paperback,Revised,Black&White,Textbook,India
+B2066,Book_66,Author_66,Springer,Mechanical,1330569302,1,English,334.99,15,No,Average,None,2023,295,Paperback,First,Black&White,Guide,India
+B2067,Book_67,Author_67,Oxford,Math,3453064736,2,Hindi,621.08,41,Yes,Good,None,2020,223,Paperback,Revised,Black&White,Textbook,India
+B2068,Book_68,Author_68,'McGraw Hill',Mechanical,1910786668,2,Telugu,828.1,48,No,Damaged,None,2019,134,Hardcover,First,Black&White,Guide,UK
+B2069,Book_69,Author_69,Pearson,Science,4600651694,5,English,992.39,37,Yes,Average,Minor,2019,444,Hardcover,Second,Color,Textbook,India
+B2070,Book_70,Author_70,Elsevier,Civil,6561830247,1,Telugu,510.84,40,Yes,Good,None,2019,385,Paperback,Second,Black&White,Reference,India
+B2071,Book_71,Author_71,Oxford,Science,7979188808,5,English,948.38,13,Yes,Damaged,Major,2019,721,Paperback,First,Color,Textbook,India
+B2072,Book_72,Author_72,Pearson,Science,1077243887,1,English,663.45,9,No,Good,Major,2022,726,Hardcover,First,Black&White,Guide,USA
+B2073,Book_73,Author_73,Oxford,Science,8855163281,2,Hindi,808.99,48,Yes,Average,Major,2024,576,Paperback,Revised,Black&White,Reference,India
+B2074,Book_74,Author_74,Elsevier,Civil,1111926410,5,Hindi,296.54,46,No,Damaged,None,2024,308,Paperback,Second,Black&White,Textbook,UK
+B2075,Book_75,Author_75,'McGraw Hill',Math,1775440394,4,Hindi,456.89,41,Yes,Average,Major,2020,106,Hardcover,Revised,Black&White,Textbook,USA
+B2076,Book_76,Author_76,Pearson,Civil,6196262457,5,English,791.97,49,Yes,Good,None,2023,212,Hardcover,Second,Black&White,Guide,USA
+B2077,Book_77,Author_77,Springer,Civil,1579684432,1,Telugu,258.08,21,No,Average,Major,2021,529,Paperback,Second,Color,Textbook,India
+B2078,Book_78,Author_78,Pearson,Civil,1451098414,5,Telugu,482.9,14,Yes,Average,Major,2020,479,Hardcover,Revised,Color,Reference,USA
+B2079,Book_79,Author_79,'McGraw Hill',Programming,8115825382,1,English,553.44,46,No,Damaged,Minor,2021,240,Hardcover,Second,Color,Guide,UK
+B2080,Book_80,Author_80,Oxford,Civil,6381925761,2,Hindi,918.83,16,No,Damaged,Minor,2020,251,Paperback,Second,Color,Textbook,India
+B2081,Book_81,Author_81,Elsevier,Math,3834498624,2,Hindi,734.77,10,No,Damaged,None,2024,623,Paperback,First,Black&White,Textbook,USA
+B2082,Book_82,Author_82,Oxford,Science,8075260654,2,Hindi,397.31,37,No,Damaged,None,2024,491,Paperback,Second,Color,Guide,UK
+B2083,Book_83,Author_83,'McGraw Hill',Science,2712482556,5,Telugu,422.87,46,Yes,Damaged,Major,2020,106,Hardcover,First,Color,Textbook,India
+B2084,Book_84,Author_84,Springer,Math,3134825194,4,Hindi,258.8,48,No,Damaged,Major,2023,417,Paperback,First,Color,Guide,India
+B2085,Book_85,Author_85,Springer,Math,5317370365,1,Telugu,353.95,46,Yes,Average,Minor,2019,487,Paperback,Second,Black&White,Guide,UK
+B2086,Book_86,Author_86,Elsevier,Science,2432244638,1,Telugu,561.73,24,Yes,Good,Major,2021,797,Hardcover,First,Black&White,Guide,USA
+B2087,Book_87,Author_87,Oxford,Mechanical,6934313436,4,English,983.83,11,Yes,Good,None,2020,151,Paperback,Revised,Black&White,Textbook,UK
+B2088,Book_88,Author_88,'McGraw Hill',Civil,8103248430,3,English,339.58,37,Yes,Good,None,2020,570,Paperback,Second,Color,Textbook,India
+B2089,Book_89,Author_89,Oxford,Science,7243931547,1,Telugu,519.78,24,No,Damaged,None,2019,345,Paperback,First,Black&White,Reference,USA
+B2090,Book_90,Author_90,'McGraw Hill',Math,3405630947,1,English,883.77,42,Yes,Damaged,Minor,2023,713,Hardcover,First,Black&White,Guide,USA
+B2091,Book_91,Author_91,Pearson,Science,1365222024,4,English,837.21,47,Yes,Good,Major,2018,591,Hardcover,First,Black&White,Reference,India
+B2092,Book_92,Author_92,Pearson,Mechanical,8332184032,5,Telugu,792.91,1,Yes,Average,Major,2019,390,Hardcover,First,Black&White,Reference,UK
+B2093,Book_93,Author_93,Oxford,Electronics,3294906878,4,Hindi,940.38,14,No,Good,None,2019,229,Paperback,Revised,Color,Textbook,India
+B2094,Book_94,Author_94,Pearson,Science,7377021872,2,English,866.68,39,No,Damaged,Major,2020,553,Paperback,Revised,Color,Guide,India
+B2095,Book_95,Author_95,Elsevier,Mechanical,9974991511,2,English,533.26,12,No,Damaged,Major,2022,226,Paperback,Second,Black&White,Guide,USA
+B2096,Book_96,Author_96,Oxford,Programming,4145799403,4,Hindi,711.39,12,Yes,Average,Major,2022,776,Paperback,Second,Color,Guide,USA
+B2097,Book_97,Author_97,'McGraw Hill',Math,5451331624,1,Hindi,643.45,11,Yes,Average,None,2023,699,Paperback,Revised,Black&White,Textbook,USA
+B2098,Book_98,Author_98,'McGraw Hill',Math,5211695949,3,Telugu,848.16,1,Yes,Average,None,2020,228,Hardcover,First,Black&White,Textbook,USA
+B2099,Book_99,Author_99,Elsevier,Math,9263001342,4,English,896.08,6,Yes,Good,Major,2020,296,Hardcover,Revised,Black&White,Guide,UK
+B2100,Book_100,Author_100,Oxford,Mechanical,7826527241,2,Telugu,557.05,40,No,Average,Minor,2019,313,Hardcover,Second,Black&White,Textbook,UK
+B2101,Book_101,Author_101,Oxford,Electronics,9692950124,4,Telugu,938.59,13,No,Average,None,2018,783,Paperback,First,Black&White,Reference,India
+B2102,Book_102,Author_102,Elsevier,Programming,4848769713,3,Hindi,959.1,44,Yes,Average,None,2023,598,Paperback,Second,Black&White,Reference,USA
+B2103,Book_103,Author_103,Pearson,Science,3795169605,4,Telugu,495.33,7,Yes,Good,Minor,2019,506,Paperback,Second,Black&White,Textbook,India
+B2104,Book_104,Author_104,Springer,Science,8684196566,1,Hindi,990.48,19,Yes,Average,None,2024,188,Paperback,First,Color,Guide,India
+B2105,Book_105,Author_105,Elsevier,Mechanical,4394861599,4,Hindi,813.5,47,No,Good,None,2018,710,Hardcover,Revised,Black&White,Reference,USA
+B2106,Book_106,Author_106,Elsevier,Math,3478132167,1,English,309.53,42,Yes,Damaged,Minor,2019,751,Hardcover,Second,Black&White,Reference,USA
+B2107,Book_107,Author_107,Springer,Math,2009527625,5,Hindi,541.16,32,No,Average,Major,2021,401,Paperback,Second,Color,Guide,USA
+B2108,Book_108,Author_108,Elsevier,Mechanical,9603249970,3,Telugu,790.46,25,No,Damaged,Minor,2020,510,Hardcover,Revised,Black&White,Reference,India
+B2109,Book_109,Author_109,Elsevier,Civil,4211762164,5,English,681.81,9,No,Damaged,None,2021,133,Paperback,First,Color,Reference,India
+B2110,Book_110,Author_110,Springer,Math,5589998239,2,Hindi,974.47,31,Yes,Damaged,Minor,2023,455,Paperback,Second,Color,Guide,India
+B2111,Book_111,Author_111,Pearson,Electronics,5896017613,1,English,505.88,5,Yes,Average,Major,2022,748,Paperback,First,Black&White,Textbook,India
+B2112,Book_112,Author_112,Pearson,Civil,8920008448,5,English,818.02,20,No,Average,None,2023,273,Hardcover,First,Color,Textbook,USA
+B2113,Book_113,Author_113,Pearson,Mechanical,3499032107,5,Hindi,211.03,10,Yes,Damaged,Major,2023,221,Paperback,Second,Black&White,Reference,India
+B2114,Book_114,Author_114,'McGraw Hill',Mechanical,7127607333,1,English,948.61,29,No,Good,Major,2020,450,Hardcover,First,Black&White,Guide,UK
+B2115,Book_115,Author_115,Elsevier,Science,4180288939,1,Telugu,542.02,24,Yes,Damaged,Major,2020,126,Paperback,First,Black&White,Guide,USA
+B2116,Book_116,Author_116,'McGraw Hill',Civil,9620718980,1,English,492.24,33,Yes,Damaged,None,2021,733,Paperback,Revised,Color,Reference,UK
+B2117,Book_117,Author_117,Oxford,Mechanical,4028992274,4,Telugu,739.82,36,Yes,Good,Minor,2024,373,Hardcover,First,Color,Reference,USA
+B2118,Book_118,Author_118,'McGraw Hill',Electronics,6328989421,4,English,773.96,10,Yes,Good,None,2022,222,Hardcover,Revised,Black&White,Guide,India
+B2119,Book_119,Author_119,Springer,Electronics,9422086097,5,English,240.36,32,No,Good,Major,2020,361,Paperback,Second,Color,Guide,USA
+B2120,Book_120,Author_120,Elsevier,Math,1774107871,4,English,785.02,3,Yes,Damaged,None,2021,632,Paperback,Revised,Color,Reference,USA
+B2121,Book_121,Author_121,Elsevier,Electronics,8447620940,1,Telugu,331.82,23,Yes,Damaged,Major,2021,187,Paperback,Revised,Color,Textbook,India
+B2122,Book_122,Author_122,Springer,Science,1973600701,3,English,239.13,11,No,Average,None,2018,315,Hardcover,Revised,Black&White,Reference,India
+B2123,Book_123,Author_123,Oxford,Civil,6179368807,1,Hindi,734.43,34,No,Damaged,Major,2018,333,Hardcover,Revised,Color,Textbook,UK
+B2124,Book_124,Author_124,'McGraw Hill',Science,3769961017,5,Telugu,548.37,13,No,Good,Major,2022,756,Hardcover,Revised,Color,Reference,India
+B2125,Book_125,Author_125,Springer,Mechanical,7023729639,1,Hindi,464.12,29,Yes,Damaged,Minor,2024,165,Paperback,First,Color,Textbook,USA
+B2126,Book_126,Author_126,Springer,Science,1845058903,4,Hindi,661.09,27,Yes,Damaged,Minor,2023,536,Paperback,Second,Black&White,Textbook,India
+B2127,Book_127,Author_127,'McGraw Hill',Programming,1554012905,3,Hindi,711.76,17,No,Good,None,2023,704,Hardcover,Revised,Black&White,Textbook,India
+B2128,Book_128,Author_128,Springer,Civil,9089114712,2,Telugu,624.47,23,No,Good,Major,2021,712,Hardcover,Second,Black&White,Guide,UK
+B2129,Book_129,Author_129,'McGraw Hill',Mechanical,6126539546,3,Telugu,463.57,21,Yes,Average,Minor,2019,740,Hardcover,Revised,Color,Guide,UK
+B2130,Book_130,Author_130,Elsevier,Electronics,4135832987,3,English,888.01,50,No,Good,Minor,2018,614,Hardcover,First,Color,Guide,UK
+B2131,Book_131,Author_131,Oxford,Civil,5183082045,4,Hindi,247.84,26,Yes,Good,Minor,2023,583,Hardcover,First,Black&White,Reference,India
+B2132,Book_132,Author_132,Oxford,Math,4897662039,2,Telugu,501.1,2,Yes,Damaged,Major,2021,684,Hardcover,First,Color,Guide,UK
+B2133,Book_133,Author_133,Springer,Science,8845090505,3,Hindi,250.88,19,Yes,Damaged,None,2019,740,Hardcover,Revised,Black&White,Reference,India
+B2134,Book_134,Author_134,'McGraw Hill',Electronics,7189713568,3,English,594.78,47,No,Average,None,2020,378,Hardcover,First,Color,Guide,UK
+B2135,Book_135,Author_135,Pearson,Mechanical,3832446758,3,English,654.94,32,No,Damaged,Minor,2022,504,Paperback,Second,Black&White,Textbook,UK
+B2136,Book_136,Author_136,Oxford,Electronics,1847002250,2,Telugu,648.77,20,No,Damaged,None,2023,337,Paperback,Revised,Black&White,Reference,UK
+B2137,Book_137,Author_137,Elsevier,Programming,6147565440,5,English,454.37,50,No,Average,Minor,2018,139,Paperback,Revised,Color,Reference,USA
+B2138,Book_138,Author_138,Elsevier,Programming,7271175562,4,Telugu,248.93,1,No,Average,None,2020,472,Paperback,Revised,Black&White,Reference,India
+B2139,Book_139,Author_139,'McGraw Hill',Civil,7593006741,2,Hindi,206.84,44,Yes,Damaged,Minor,2021,149,Paperback,First,Black&White,Reference,USA
+B2140,Book_140,Author_140,Oxford,Science,5383521787,4,Telugu,710.29,26,Yes,Good,None,2021,489,Hardcover,Second,Color,Textbook,UK
+B2141,Book_141,Author_141,'McGraw Hill',Mechanical,2215052325,4,Hindi,668.21,20,No,Average,None,2019,559,Paperback,Second,Color,Reference,UK
+B2142,Book_142,Author_142,'McGraw Hill',Programming,8677514411,2,Telugu,430.88,1,Yes,Damaged,Minor,2024,215,Paperback,Second,Black&White,Textbook,UK
+B2143,Book_143,Author_143,Elsevier,Programming,9981492907,5,English,637.02,25,No,Average,None,2021,763,Hardcover,Second,Color,Guide,UK
+B2144,Book_144,Author_144,Elsevier,Electronics,7204753140,2,Hindi,414.09,44,No,Average,Major,2018,668,Paperback,Second,Black&White,Textbook,India
+B2145,Book_145,Author_145,Elsevier,Science,3506006599,2,Hindi,896.58,47,Yes,Average,Minor,2018,489,Paperback,First,Black&White,Guide,India
+B2146,Book_146,Author_146,Pearson,Mechanical,1326797351,1,Hindi,665.69,47,No,Average,None,2023,371,Paperback,Revised,Color,Guide,India
+B2147,Book_147,Author_147,Oxford,Electronics,8866589565,5,Telugu,260.63,42,No,Average,None,2019,346,Hardcover,First,Black&White,Reference,India
+B2148,Book_148,Author_148,'McGraw Hill',Science,6524266508,2,Hindi,790.19,4,Yes,Average,Major,2020,369,Paperback,Revised,Black&White,Textbook,UK
+B2149,Book_149,Author_149,Oxford,Mechanical,7761986651,5,Hindi,753.45,38,Yes,Good,None,2021,100,Paperback,First,Black&White,Reference,UK
+B2150,Book_150,Author_150,Oxford,Math,7869384197,4,Hindi,965.29,6,No,Average,Major,2018,584,Paperback,First,Black&White,Reference,India
+B2151,Book_151,Author_151,Elsevier,Civil,4748273846,4,Telugu,249.4,40,Yes,Damaged,Major,2018,149,Paperback,Revised,Color,Textbook,USA
+B2152,Book_152,Author_152,Elsevier,Science,5499430592,4,Hindi,976.15,7,Yes,Average,Major,2021,199,Paperback,First,Color,Textbook,India
+B2153,Book_153,Author_153,Elsevier,Electronics,1451762953,2,Telugu,724.37,33,No,Good,None,2021,664,Hardcover,Revised,Color,Guide,USA
+B2154,Book_154,Author_154,Springer,Civil,3250707755,3,Hindi,478.7,27,No,Damaged,Major,2020,765,Hardcover,Second,Color,Reference,India
+B2155,Book_155,Author_155,'McGraw Hill',Math,7507571699,3,Hindi,350.98,33,Yes,Average,None,2018,391,Hardcover,First,Black&White,Guide,India
+B2156,Book_156,Author_156,Pearson,Science,1688685850,2,Telugu,539.91,14,Yes,Average,None,2019,232,Paperback,First,Black&White,Guide,UK
+B2157,Book_157,Author_157,Elsevier,Electronics,3871083623,3,Telugu,217.18,26,Yes,Average,Major,2019,568,Hardcover,Revised,Black&White,Guide,UK
+B2158,Book_158,Author_158,'McGraw Hill',Science,6988252272,3,Telugu,790.27,10,Yes,Damaged,Minor,2019,453,Paperback,Second,Black&White,Reference,USA
+B2159,Book_159,Author_159,Springer,Mechanical,9737291733,5,English,374.68,44,Yes,Average,None,2020,462,Hardcover,First,Black&White,Textbook,UK

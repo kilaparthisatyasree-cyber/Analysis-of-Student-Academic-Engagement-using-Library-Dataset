@@ -1,0 +1,45 @@
+=== Run information ===
+
+Scheme:       weka.associations.FPGrowth -P 2 -I -1 -N 10 -T 0 -C 0.9 -D 0.05 -U 1.0 -M 0.1
+Relation:     Library_FPGrowth_WEKA_READY-weka.filters.unsupervised.attribute.Discretize-B10-M-1.0-Rfirst-last-precision6
+Instances:    200
+Attributes:   24
+              Preferred_Book_Type_Civil
+              Preferred_Book_Type_Electronics
+              Preferred_Book_Type_Math
+              Preferred_Book_Type_Mechanical
+              Preferred_Book_Type_Programming
+              Preferred_Book_Type_Science
+              Department_CSE
+              Department_Civil
+              Department_ECE
+              Department_EEE
+              Department_ME
+              Genre_Guide
+              Genre_Reference
+              Genre_Textbook
+              Book_Category_Civil
+              Book_Category_Electronics
+              Book_Category_Math
+              Book_Category_Mechanical
+              Book_Category_Programming
+              Book_Category_Science
+              Scholarship_Status_No
+              Scholarship_Status_Yes
+              Hostel_DayScholar_DayScholar
+              Hostel_DayScholar_Hostel
+=== Associator model (full training set) ===
+
+FPGrowth found 12 rules (displaying top 10)
+
+ 1. [Scholarship_Status_Yes=True]: 100 ==> [Scholarship_Status_No=False]: 100   <conf:(1)> lift:(2) lev:(0.25) conv:(50) 
+ 2. [Scholarship_Status_No=False]: 100 ==> [Scholarship_Status_Yes=True]: 100   <conf:(1)> lift:(2) lev:(0.25) conv:(50) 
+ 3. [Hostel_DayScholar_Hostel=True]: 94 ==> [Hostel_DayScholar_DayScholar=False]: 94   <conf:(1)> lift:(2.13) lev:(0.25) conv:(49.82) 
+ 4. [Hostel_DayScholar_DayScholar=False]: 94 ==> [Hostel_DayScholar_Hostel=True]: 94   <conf:(1)> lift:(2.13) lev:(0.25) conv:(49.82) 
+ 5. [Preferred_Book_Type_Electronics=False, Scholarship_Status_Yes=True]: 84 ==> [Scholarship_Status_No=False]: 84   <conf:(1)> lift:(2) lev:(0.21) conv:(42) 
+ 6. [Preferred_Book_Type_Electronics=False, Scholarship_Status_No=False]: 84 ==> [Scholarship_Status_Yes=True]: 84   <conf:(1)> lift:(2) lev:(0.21) conv:(42) 
+ 7. [Preferred_Book_Type_Electronics=False, Hostel_DayScholar_Hostel=True]: 84 ==> [Hostel_DayScholar_DayScholar=False]: 84   <conf:(1)> lift:(2.13) lev:(0.22) conv:(44.52) 
+ 8. [Preferred_Book_Type_Electronics=False, Hostel_DayScholar_DayScholar=False]: 84 ==> [Hostel_DayScholar_Hostel=True]: 84   <conf:(1)> lift:(2.13) lev:(0.22) conv:(44.52) 
+ 9. [Book_Category_Civil=False, Scholarship_Status_Yes=True]: 85 ==> [Scholarship_Status_No=False]: 85   <conf:(1)> lift:(2) lev:(0.21) conv:(42.5) 
+10. [Book_Category_Civil=False, Scholarship_Status_No=False]: 85 ==> [Scholarship_Status_Yes=True]: 85   <conf:(1)> lift:(2) lev:(0.21) conv:(42.5) 
+

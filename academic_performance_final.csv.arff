@@ -1,0 +1,234 @@
+@relation 'students_reducedd (1)-weka.filters.unsupervised.attribute.Reorder-R1,2,3,4,5,6,7,8,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,9'
+
+@attribute ﻿Student_Name {Student_88,Student_4,Student_123,Student_13,Student_51,Student_39,Student_9,Student_174,Student_33,Student_117,Student_34,Student_130,Student_56,Student_45,Student_46,Student_53,Student_96,Student_6,Student_75,Student_57,Student_91,Student_102,Student_146,Student_0,Student_111,Student_25,Student_140,Student_126,Student_150,Student_47,Student_71,Student_121,Student_17,Student_159,Student_129,Student_79,Student_167,Student_118,Student_98,Student_170,Student_114,Student_19,Student_22,Student_16,Student_80,Student_44,Student_149,Student_35,Student_155,Student_68,Student_82,Student_163,Student_85,Student_3,Student_151,Student_116,Student_66,Student_104,Student_73,Student_162,Student_171,Student_15,Student_86,Student_128,Student_152,Student_89,Student_74,Student_31,Student_49,Student_165,Student_41,Student_37,Student_135,Student_173,Student_141,Student_101,Student_69,Student_107,Student_23,Student_8,Student_18,Student_10,Student_84,Student_30,Student_58,Student_100,Student_65,Student_5,Student_178,Student_160,Student_26,Student_119,Student_52,Student_28,Student_161,Student_108,Student_138,Student_110,Student_142,Student_124,Student_144,Student_97,Student_61,Student_24,Student_76,Student_72,Student_147,Student_154,Student_113,Student_169,Student_115,Student_179,Student_38,Student_95,Student_103,Student_94,Student_55,Student_77,Student_81}
+@attribute Gender {Male,Female}
+@attribute Age numeric
+@attribute Department {CSE,ECE,Civil,EEE,ME}
+@attribute Year_of_Study numeric
+@attribute Section {A,B,C}
+@attribute CGPA numeric
+@attribute Attendance_Percentage numeric
+@attribute Scholarship_Status {No,Yes}
+@attribute Hostel_DayScholar {DayScholar,Hostel}
+@attribute Performance_Index numeric
+@attribute Scholarship_Flag numeric
+@attribute Student_Category {CSE_2.0,CSE_1.0,ECE_2.0,Civil_3.0,ECE_3.0,EEE_2.0,ECE_4.0,ECE_1.0,CSE_3.0,ME_1.0,ME_2.0,EEE_4.0,ME_4.0,Civil_1.0,ME_3.0,Civil_4.0,EEE_3.0,Civil_2.0,EEE_1.0,CSE_4.0}
+@attribute Book_Title {Book_25,Book_10,Book_28,Book_154,Book_91,Book_38,Book_78,Book_81,Book_2,Book_147,Book_90,Book_95,Book_4,Book_36,Book_93,Book_11,Book_5,Book_114,Book_50,Book_84,Book_132,Book_57,Book_7,Book_106,Book_121,Book_44,Book_107,Book_3,Book_53,Book_94,Book_140,Book_23,Book_48,Book_138,Book_6,Book_105,Book_12,Book_22,Book_141,Book_29,Book_27,Book_59,Book_45,Book_46,Book_37,Book_35,Book_159,Book_129,Book_137,Book_148,Book_65,Book_18,Book_79,Book_131,Book_98,Book_61,Book_68,Book_118,Book_42,Book_69,Book_149,Book_14,Book_85,Book_117,Book_122,Book_102,Book_116,Book_15,Book_76,Book_146,Book_21,Book_39,Book_110,Book_80,Book_43,Book_126,Book_24,Book_82,Book_101,Book_111,Book_143,Book_115,Book_17,Book_156,Book_19,Book_49,Book_133,Book_60,Book_31,Book_127,Book_56,Book_120,Book_112,Book_103,Book_67,Book_151,Book_74,Book_83,Book_13,Book_32,Book_72,Book_139,Book_99,Book_155,Book_86,Book_47,Book_123,Book_150,Book_63,Book_134,Book_16}
+@attribute Author_Name {Author_25,Author_10,Author_28,Author_154,Author_91,Author_38,Author_78,Author_81,Author_2,Author_147,Author_90,Author_95,Author_4,Author_36,Author_93,Author_11,Author_5,Author_114,Author_50,Author_84,Author_132,Author_57,Author_7,Author_106,Author_121,Author_44,Author_107,Author_3,Author_53,Author_94,Author_140,Author_23,Author_48,Author_138,Author_6,Author_105,Author_12,Author_22,Author_141,Author_29,Author_27,Author_59,Author_45,Author_46,Author_37,Author_35,Author_159,Author_129,Author_137,Author_148,Author_65,Author_18,Author_79,Author_131,Author_98,Author_61,Author_68,Author_118,Author_42,Author_69,Author_149,Author_153,Author_85,Author_117,Author_122,Author_102,Author_116,Author_15,Author_76,Author_146,Author_21,Author_39,Author_110,Author_80,Author_43,Author_126,Author_24,Author_82,Author_101,Author_111,Author_143,Author_115,Author_17,Author_156,Author_19,Author_49,Author_133,Author_60,Author_31,Author_127,Author_56,Author_120,Author_112,Author_103,Author_67,Author_151,Author_74,Author_83,Author_13,Author_32,Author_72,Author_139,Author_99,Author_155,Author_86,Author_47,Author_123,Author_150,Author_63,Author_134,Author_16}
+@attribute Publisher {Pearson,Springer,Elsevier,'McGraw Hill',Oxford}
+@attribute Book_Category {Civil,Programming,Science,Math,Electronics,Mechanical}
+@attribute Language {Telugu,Hindi,English}
+@attribute Book_Price numeric
+@attribute Publication_Year numeric
+@attribute Pages numeric
+@attribute Issue_Date {29-01-2025,23-09-2025,12-06-2025,10-02-2025,18-10-2025,22-03-2025,13-08-2025,23-01-2025,17-12-2025,07-12-2025,05-09-2025,27-03-2025,08-09-2025,14-01-2025,29-11-2025,03-01-2025,10-07-2025,11-06-2025,27-08-2025,22-12-2025,19-02-2025,07-10-2025,25-04-2025,18-03-2025,30-08-2025,08-06-2025,21-01-2025,06-02-2025,29-08-2025,27-05-2025,28-05-2025,14-03-2025,05-07-2025,09-10-2025,19-12-2025,23-05-2025,02-12-2025,26-04-2025,17-11-2025,17-07-2025,19-11-2025,14-08-2025,11-02-2025,19-08-2025,12-05-2025,10-01-2025,20-12-2025,07-08-2025,06-04-2025,29-07-2025,17-03-2025,20-08-2025,05-08-2025,18-12-2025,19-07-2025,30-05-2025,21-05-2025,27-12-2025,29-03-2025,24-07-2025,15-03-2025,27-01-2025,23-06-2025,09-02-2025,16-09-2025,17-10-2025,06-06-2025,08-07-2025,03-04-2025,29-10-2025,07-09-2025,09-08-2025,22-04-2025,07-03-2025,29-06-2025,25-08-2025,01-07-2025,28-11-2025,02-10-2025,13-05-2025,02-07-2025,04-10-2025,13-09-2025,12-01-2025,21-07-2025,13-04-2025,14-04-2025,16-12-2025,27-10-2025,30-03-2025,14-07-2025,11-11-2025,24-03-2025,19-06-2025,26-05-2025,02-04-2025,27-04-2025,27-07-2025,15-09-2025,16-08-2025,18-07-2025,07-01-2025,16-03-2025,28-06-2025,14-09-2025,03-08-2025,23-07-2025,04-06-2025,30-11-2025,03-07-2025,26-10-2025,20-02-2025,01-11-2025,20-01-2025,12-12-2025,11-01-2025,21-10-2025,31-05-2025,16-04-2025,10-11-2025,05-10-2025,04-09-2025,06-01-2025,25-05-2025,08-10-2025,07-11-2025,10-06-2025,17-05-2025,06-09-2025,31-01-2025,05-02-2025,09-09-2025,02-02-2025,17-04-2025,05-06-2025,24-10-2025,16-07-2025,30-06-2025,18-02-2025,09-05-2025,22-02-2025,09-03-2025,30-09-2025,19-01-2025,01-09-2025,21-11-2025,08-08-2025,27-11-2025,26-01-2025,26-09-2025,01-10-2025,27-09-2025,09-07-2025,20-07-2025}
+@attribute Due_Date {12-02-2025,07-10-2025,26-06-2025,24-02-2025,01-11-2025,05-04-2025,27-08-2025,06-02-2025,31-12-2025,21-12-2025,19-09-2025,10-04-2025,22-09-2025,28-01-2025,13-12-2025,17-01-2025,24-07-2025,25-06-2025,10-09-2025,05-01-2026,05-03-2025,21-10-2025,09-05-2025,01-04-2025,13-09-2025,22-06-2025,04-02-2025,20-02-2025,12-09-2025,10-06-2025,11-06-2025,28-03-2025,19-07-2025,23-10-2025,02-01-2026,06-06-2025,16-12-2025,10-05-2025,01-12-2025,31-07-2025,03-12-2025,28-08-2025,25-02-2025,02-09-2025,26-05-2025,24-01-2025,03-01-2026,21-08-2025,20-04-2025,12-08-2025,31-03-2025,03-09-2025,19-08-2025,01-01-2026,02-08-2025,13-06-2025,04-06-2025,10-01-2026,12-04-2025,07-08-2025,29-03-2025,10-02-2025,07-07-2025,23-02-2025,30-09-2025,31-10-2025,20-06-2025,22-07-2025,17-04-2025,12-11-2025,21-09-2025,23-08-2025,06-05-2025,21-03-2025,13-07-2025,08-09-2025,15-07-2025,12-12-2025,16-10-2025,27-05-2025,16-07-2025,18-10-2025,27-09-2025,26-01-2025,04-08-2025,27-04-2025,28-04-2025,30-12-2025,10-11-2025,13-04-2025,28-07-2025,25-11-2025,07-04-2025,03-07-2025,09-06-2025,16-04-2025,11-05-2025,10-08-2025,29-09-2025,30-08-2025,01-08-2025,21-01-2025,30-03-2025,12-07-2025,28-09-2025,17-08-2025,06-08-2025,18-06-2025,14-12-2025,17-07-2025,09-11-2025,06-03-2025,15-11-2025,03-02-2025,26-12-2025,25-01-2025,04-11-2025,14-06-2025,30-04-2025,24-11-2025,19-10-2025,18-09-2025,20-01-2025,08-06-2025,22-10-2025,21-11-2025,24-06-2025,31-05-2025,20-09-2025,14-02-2025,19-02-2025,23-09-2025,16-02-2025,01-05-2025,19-06-2025,07-11-2025,30-07-2025,14-07-2025,04-03-2025,23-05-2025,08-03-2025,23-03-2025,14-10-2025,02-02-2025,15-09-2025,05-12-2025,22-08-2025,11-12-2025,09-02-2025,10-10-2025,15-10-2025,11-10-2025,23-07-2025,03-08-2025}
+@attribute Return_Date {18-02-2025,07-10-2025,22-06-2025,23-02-2025,30-10-2025,10-04-2025,02-01-2026,09-02-2025,06-04-2025,26-09-2025,24-01-2025,12-12-2025,20-07-2025,08-09-2025,08-01-2026,07-03-2025,21-10-2025,05-05-2025,05-04-2025,23-06-2025,05-02-2025,05-01-2026,13-09-2025,15-06-2025,10-06-2025,24-03-2025,23-07-2025,22-10-2025,31-10-2025,18-06-2025,27-11-2025,15-05-2025,30-07-2025,30-11-2025,27-08-2025,27-02-2025,17-12-2025,05-08-2025,01-09-2025,06-06-2025,06-12-2025,31-05-2025,20-01-2025,18-08-2025,16-04-2025,09-08-2025,27-03-2025,10-09-2025,30-08-2025,22-08-2025,07-08-2025,11-04-2025,03-08-2025,31-03-2025,23-10-2025,28-08-2025,06-02-2025,10-07-2025,04-11-2025,24-06-2025,18-07-2025,14-04-2025,09-11-2025,17-09-2025,17-04-2025,12-05-2025,21-03-2025,09-07-2025,14-09-2025,09-01-2026,08-12-2025,17-10-2025,26-05-2025,09-06-2025,13-07-2025,01-03-2025,29-09-2025,30-01-2025,25-04-2025,02-05-2025,27-12-2025,10-11-2025,09-04-2025,24-07-2025,25-11-2025,04-07-2025,18-04-2025,25-08-2025,06-08-2025,27-09-2025,02-06-2025,02-04-2025,17-07-2025,24-09-2025,22-02-2025,02-10-2025,08-04-2025,23-08-2025,10-08-2025,18-09-2025,14-12-2025,01-01-2026,31-01-2025,16-06-2025,04-05-2025,12-06-2025,03-02-2025,01-06-2025,03-04-2025,04-08-2025,19-02-2025,20-02-2025,23-09-2025,31-08-2025,26-07-2025,04-03-2025,05-03-2025,23-03-2025,20-10-2025,12-09-2025,25-06-2025,12-02-2025,08-02-2025,09-10-2025,01-08-2025}
+@attribute Issue_Status {Returned,'Not Returned'}
+@attribute Number_of_Days_Issued numeric
+@attribute Renew_Count numeric
+@attribute Fine_Amount numeric
+@attribute Late_Return_Count numeric
+@attribute Academic_Performance {Average,Excellent,Good,Poor}
+
+@data
+Student_88,Male,19,CSE,2,A,7.54,97,No,DayScholar,34.378,0,CSE_2.0,Book_25,Author_25,Pearson,Civil,Telugu,277.63,2019,413,29-01-2025,12-02-2025,18-02-2025,Returned,25,1,10,4,Average
+Student_9,Male,21,EEE,2,A,8.11,77,Yes,Hostel,28.777,1,EEE_2.0,Book_81,Author_81,Elsevier,Math,Hindi,734.77,2024,623,23-01-2025,06-02-2025,09-02-2025,Returned,9,3,20,5,Average
+Student_33,Female,21,ECE,1,C,9.54,77,No,Hostel,29.778,0,ECE_1.0,Book_147,Author_147,Oxford,Electronics,Telugu,260.63,2019,346,07-12-2025,21-12-2025,02-01-2026,'Not Returned',19,1,20,3,Average
+Student_34,Female,22,Civil,3,B,7.45,61,Yes,DayScholar,23.515,1,Civil_3.0,Book_95,Author_95,Elsevier,Mechanical,English,533.26,2022,226,27-03-2025,10-04-2025,06-04-2025,Returned,21,1,20,1,Average
+Student_56,Female,20,ME,2,A,8.3,74,No,Hostel,28.01,0,ME_2.0,Book_36,Author_36,Elsevier,Electronics,Hindi,200.11,2018,143,14-01-2025,28-01-2025,24-01-2025,Returned,26,2,20,4,Average
+Student_46,Male,21,EEE,4,A,5.67,86,No,Hostel,29.769,0,EEE_4.0,Book_11,Author_11,Springer,Civil,Hindi,406.99,2021,612,03-01-2025,17-01-2025,02-01-2026,'Not Returned',30,3,10,4,Average
+Student_6,Male,20,ECE,3,A,8.59,84,No,DayScholar,31.213,0,ECE_3.0,Book_84,Author_84,Springer,Math,Hindi,258.8,2023,417,22-12-2025,05-01-2026,08-01-2026,Returned,14,3,20,2,Average
+Student_91,Female,22,ME,4,C,9.21,62,Yes,Hostel,25.047,1,ME_4.0,Book_7,Author_7,Elsevier,Math,English,779.68,2020,650,18-03-2025,01-04-2025,05-04-2025,Returned,19,2,10,3,Average
+Student_0,Female,18,ECE,2,C,6.72,76,No,DayScholar,27.504,0,ECE_2.0,Book_107,Author_107,Springer,Math,Hindi,541.16,2021,401,06-02-2025,20-02-2025,23-02-2025,Returned,25,3,30,2,Average
+Student_126,Male,20,ECE,4,B,5.41,91,No,DayScholar,31.087,0,ECE_4.0,Book_94,Author_94,Pearson,Science,English,866.68,2020,553,28-05-2025,11-06-2025,10-06-2025,Returned,30,2,30,3,Average
+Student_121,Male,24,ECE,2,C,8.76,63,Yes,Hostel,25.032,1,ECE_2.0,Book_138,Author_138,Elsevier,Programming,Telugu,248.93,2020,472,18-10-2025,01-11-2025,31-10-2025,Returned,8,2,10,5,Average
+Student_129,Male,21,CSE,2,B,8.71,99,No,Hostel,35.797,0,CSE_2.0,Book_105,Author_105,Elsevier,Mechanical,Hindi,813.5,2018,710,26-04-2025,10-05-2025,02-01-2026,'Not Returned',9,3,20,3,Average
+Student_79,Female,21,Civil,1,B,8.26,61,Yes,DayScholar,24.082,1,Civil_1.0,Book_12,Author_12,Springer,Science,Telugu,240.45,2018,504,08-06-2025,22-06-2025,18-06-2025,Returned,24,3,10,3,Average
+Student_98,Male,20,Civil,4,B,7.31,85,No,Hostel,30.617,0,Civil_4.0,Book_141,Author_141,'McGraw Hill',Mechanical,Telugu,668.21,2019,559,17-07-2025,31-07-2025,30-07-2025,Returned,10,2,20,1,Average
+Student_170,Female,21,EEE,3,A,5.36,66,No,Hostel,23.552,0,EEE_3.0,Book_29,Author_29,Elsevier,Mechanical,English,779.68,2022,546,19-11-2025,03-12-2025,30-11-2025,Returned,11,2,20,4,Average
+Student_129,Male,21,CSE,2,B,8.71,99,No,Hostel,35.797,0,CSE_2.0,Book_45,Author_45,Springer,Math,English,579.17,2019,164,17-07-2025,31-07-2025,05-08-2025,Returned,28,2,20,1,Average
+Student_56,Female,20,ME,2,A,8.3,74,No,Hostel,28.01,0,ME_2.0,Book_46,Author_46,Springer,Civil,English,282.72,2021,392,09-10-2025,23-10-2025,02-01-2026,'Not Returned',9,2,30,3,Average
+Student_16,Male,18,ECE,4,B,8.05,82,Yes,Hostel,30.235,1,ECE_4.0,Book_53,Author_53,Pearson,Programming,Telugu,745.71,2020,106,19-08-2025,02-09-2025,01-09-2025,Returned,26,2,30,3,Average
+Student_79,Female,21,Civil,1,B,8.26,61,Yes,DayScholar,24.082,1,Civil_1.0,Book_29,Author_29,Elsevier,Mechanical,English,779.68,2022,546,12-05-2025,26-05-2025,31-05-2025,Returned,27,1,10,4,Average
+Student_170,Female,21,EEE,3,A,5.36,66,No,Hostel,23.552,0,EEE_3.0,Book_159,Author_159,Springer,Mechanical,English,374.68,2020,462,10-01-2025,24-01-2025,20-01-2025,Returned,29,3,20,5,Average
+Student_88,Male,19,CSE,2,A,7.54,97,No,DayScholar,34.378,0,CSE_2.0,Book_129,Author_129,'McGraw Hill',Mechanical,Telugu,463.57,2019,740,20-12-2025,03-01-2026,02-01-2026,Returned,20,2,10,5,Average
+Student_44,Male,18,EEE,4,B,7.57,88,Yes,DayScholar,31.699,1,EEE_4.0,Book_148,Author_148,'McGraw Hill',Science,Hindi,790.19,2020,369,06-04-2025,20-04-2025,16-04-2025,Returned,21,2,10,3,Average
+Student_149,Male,22,Civil,3,A,6.14,65,No,DayScholar,23.798,0,Civil_3.0,Book_65,Author_65,Elsevier,Mechanical,English,843.79,2023,480,29-07-2025,12-08-2025,09-08-2025,Returned,7,3,10,3,Average
+Student_163,Male,20,Civil,2,A,6.7,70,Yes,DayScholar,25.69,1,Civil_2.0,Book_61,Author_61,Elsevier,Math,Hindi,227.62,2023,593,18-12-2025,01-01-2026,02-01-2026,Returned,13,1,20,4,Average
+Student_85,Male,23,ECE,4,A,6,76,Yes,DayScholar,27,1,ECE_4.0,Book_68,Author_68,'McGraw Hill',Mechanical,Telugu,828.1,2019,134,19-07-2025,02-08-2025,07-08-2025,Returned,8,2,20,3,Average
+Student_116,Female,24,ME,2,B,5.69,67,No,DayScholar,24.083,0,ME_2.0,Book_50,Author_50,'McGraw Hill',Science,Telugu,552.28,2022,674,27-12-2025,10-01-2026,02-01-2026,'Not Returned',8,2,10,3,Average
+Student_129,Male,21,CSE,2,B,8.71,99,No,Hostel,35.797,0,CSE_2.0,Book_14,Author_153,Pearson,Programming,English,714.93,2024,252,15-03-2025,29-03-2025,31-03-2025,Returned,19,3,30,5,Average
+Student_9,Male,21,EEE,2,A,8.11,77,Yes,Hostel,28.777,1,EEE_2.0,Book_85,Author_85,Elsevier,Math,Telugu,353.95,2019,487,07-10-2025,21-10-2025,23-10-2025,Returned,24,1,30,1,Average
+Student_163,Male,20,Civil,2,A,6.7,70,Yes,DayScholar,25.69,1,Civil_2.0,Book_14,Author_153,Pearson,Programming,English,714.93,2024,252,09-02-2025,23-02-2025,02-01-2026,'Not Returned',29,3,30,1,Average
+Student_121,Male,24,ECE,2,C,8.76,63,Yes,Hostel,25.032,1,ECE_2.0,Book_116,Author_116,'McGraw Hill',Civil,English,464.12,2021,733,06-06-2025,20-06-2025,24-06-2025,Returned,14,1,20,2,Average
+Student_86,Male,22,CSE,1,C,6.59,84,No,Hostel,29.813,0,CSE_1.0,Book_29,Author_29,Elsevier,Mechanical,English,779.68,2022,546,29-10-2025,12-11-2025,09-11-2025,Returned,27,1,20,2,Average
+Student_74,Female,19,CSE,4,B,9.08,93,Yes,DayScholar,34.256,1,CSE_4.0,Book_43,Author_43,Pearson,Math,English,552.28,2024,460,20-12-2025,03-01-2026,09-01-2026,Returned,17,2,10,1,Average
+Student_49,Female,23,Civil,1,A,8.84,100,No,Hostel,36.188,0,Civil_1.0,Book_24,Author_24,'McGraw Hill',Science,Telugu,816.69,2023,185,13-05-2025,27-05-2025,26-05-2025,Returned,30,2,20,5,Average
+Student_41,Male,18,ECE,1,C,5.13,64,Yes,DayScholar,22.791,1,ECE_1.0,Book_69,Author_69,Pearson,Science,English,992.39,2019,444,02-07-2025,16-07-2025,13-07-2025,Returned,9,3,30,4,Average
+Student_33,Female,21,ECE,1,C,9.54,77,No,Hostel,29.778,0,ECE_1.0,Book_82,Author_82,Oxford,Science,Hindi,296.54,2024,491,04-10-2025,18-10-2025,02-01-2026,'Not Returned',7,1,20,1,Average
+Student_141,Female,19,EEE,4,B,8.07,97,No,DayScholar,34.749,0,EEE_4.0,Book_132,Author_132,Oxford,Math,Telugu,501.1,2021,684,16-12-2025,30-12-2025,27-12-2025,Returned,13,1,30,1,Average
+Student_69,Male,22,Civil,3,C,9.84,71,No,Hostel,28.188,0,Civil_3.0,Book_50,Author_50,'McGraw Hill',Science,Telugu,552.28,2022,674,14-07-2025,28-07-2025,24-07-2025,Returned,17,3,20,4,Average
+Student_121,Male,24,ECE,2,C,8.76,63,Yes,Hostel,25.032,1,ECE_2.0,Book_19,Author_19,Elsevier,Math,English,683.45,2019,718,14-08-2025,28-08-2025,02-01-2026,'Not Returned',10,1,10,3,Average
+Student_74,Female,19,CSE,4,B,9.08,93,Yes,DayScholar,34.256,1,CSE_4.0,Book_23,Author_23,Oxford,Electronics,Hindi,877.98,2023,373,07-08-2025,21-08-2025,25-08-2025,Returned,22,2,30,3,Average
+Student_9,Male,21,EEE,2,A,8.11,77,Yes,Hostel,28.777,1,EEE_2.0,Book_106,Author_106,Elsevier,Math,English,309.53,2019,751,15-09-2025,29-09-2025,27-09-2025,Returned,12,2,30,3,Average
+Student_41,Male,18,ECE,1,C,5.13,64,Yes,DayScholar,22.791,1,ECE_1.0,Book_127,Author_127,'McGraw Hill',Programming,Hindi,711.76,2023,704,14-09-2025,28-09-2025,02-10-2025,Returned,17,1,30,3,Average
+Student_52,Female,23,EEE,1,A,9.96,75,No,Hostel,29.472,0,EEE_1.0,Book_112,Author_112,Pearson,Civil,English,818.02,2023,273,01-11-2025,15-11-2025,02-01-2026,'Not Returned',27,2,10,3,Average
+Student_28,Female,22,EEE,4,C,9.78,84,Yes,Hostel,32.046,1,EEE_4.0,Book_81,Author_81,Elsevier,Math,Hindi,734.77,2024,623,20-01-2025,03-02-2025,05-02-2025,Returned,19,3,30,4,Average
+Student_142,Male,20,EEE,1,C,9.52,78,Yes,DayScholar,30.064,1,EEE_1.0,Book_103,Author_103,Pearson,Science,Telugu,495.33,2019,506,21-10-2025,04-11-2025,31-10-2025,Returned,28,2,20,1,Average
+Student_124,Female,23,ECE,1,C,9.4,66,Yes,DayScholar,26.38,1,ECE_1.0,Book_67,Author_67,Oxford,Math,Hindi,621.08,2020,223,21-10-2025,04-11-2025,02-01-2026,'Not Returned',18,1,10,2,Average
+Student_124,Female,23,ECE,1,C,9.4,66,Yes,DayScholar,26.38,1,ECE_1.0,Book_103,Author_103,Pearson,Science,Telugu,495.33,2019,506,31-05-2025,14-06-2025,16-06-2025,Returned,14,3,30,3,Average
+Student_97,Female,19,EEE,2,B,7.62,61,Yes,Hostel,23.634,1,EEE_2.0,Book_133,Author_133,Springer,Science,Hindi,250.88,2019,740,05-10-2025,19-10-2025,02-01-2026,'Not Returned',8,1,30,4,Average
+Student_61,Male,18,EEE,1,A,9.26,92,Yes,DayScholar,34.082,1,EEE_1.0,Book_74,Author_74,Elsevier,Civil,Hindi,296.54,2024,308,04-09-2025,18-09-2025,18-09-2025,Returned,26,1,10,2,Average
+Student_28,Female,22,EEE,4,C,9.78,84,Yes,Hostel,32.046,1,EEE_4.0,Book_101,Author_101,Oxford,Electronics,Telugu,938.59,2018,783,06-01-2025,20-01-2025,20-01-2025,Returned,22,1,10,2,Average
+Student_9,Male,21,EEE,2,A,8.11,77,Yes,Hostel,28.777,1,EEE_2.0,Book_156,Author_156,Pearson,Science,Telugu,552.28,2021,232,07-11-2025,21-11-2025,02-01-2026,'Not Returned',30,2,20,2,Average
+Student_79,Female,21,Civil,1,B,8.26,61,Yes,DayScholar,24.082,1,Civil_1.0,Book_32,Author_32,Elsevier,Electronics,Telugu,582.59,2021,485,10-06-2025,24-06-2025,02-01-2026,'Not Returned',13,2,20,2,Average
+Student_0,Female,18,ECE,2,C,6.72,76,No,DayScholar,27.504,0,ECE_2.0,Book_72,Author_72,Pearson,Science,English,663.45,2022,726,23-01-2025,06-02-2025,03-02-2025,Returned,20,1,30,5,Average
+Student_76,Female,23,CSE,2,A,8.29,60,No,Hostel,23.803,0,CSE_2.0,Book_110,Author_110,Springer,Math,Hindi,974.47,2023,455,17-05-2025,31-05-2025,01-06-2025,Returned,20,2,10,1,Average
+Student_61,Male,18,EEE,1,A,9.26,92,Yes,DayScholar,34.082,1,EEE_1.0,Book_65,Author_65,Elsevier,Mechanical,English,843.79,2023,480,15-03-2025,29-03-2025,03-04-2025,Returned,19,1,20,3,Average
+Student_72,Male,21,EEE,2,B,7.09,90,Yes,DayScholar,31.963,1,EEE_2.0,Book_81,Author_81,Elsevier,Math,Hindi,734.77,2024,623,18-07-2025,01-08-2025,07-08-2025,Returned,13,1,30,3,Average
+Student_124,Female,23,ECE,1,C,9.4,66,Yes,DayScholar,26.38,1,ECE_1.0,Book_4,Author_4,'McGraw Hill',Electronics,Hindi,233.05,2024,433,17-04-2025,01-05-2025,02-05-2025,Returned,17,3,10,5,Average
+Student_76,Female,23,CSE,2,A,8.29,60,No,Hostel,23.803,0,CSE_2.0,Book_139,Author_139,'McGraw Hill',Civil,Hindi,206.84,2021,149,24-10-2025,07-11-2025,09-11-2025,Returned,24,2,20,1,Average
+Student_38,Female,20,CSE,1,A,8.73,77,Yes,DayScholar,29.211,1,CSE_1.0,Book_155,Author_155,'McGraw Hill',Math,Hindi,350.98,2018,391,14-04-2025,28-04-2025,02-01-2026,'Not Returned',22,1,30,1,Average
+Student_95,Male,20,ME,2,A,8,74,No,Hostel,27.8,0,ME_2.0,Book_93,Author_93,Oxford,Electronics,Hindi,940.38,2019,229,16-07-2025,30-07-2025,26-07-2025,Returned,29,1,10,2,Average
+Student_44,Male,18,EEE,4,B,7.57,88,Yes,DayScholar,31.699,1,EEE_4.0,Book_86,Author_86,Elsevier,Science,Telugu,561.73,2021,797,18-02-2025,04-03-2025,04-03-2025,Returned,22,2,20,1,Average
+Student_77,Male,20,CSE,4,A,5.12,68,Yes,Hostel,23.984,1,CSE_4.0,Book_134,Author_134,'McGraw Hill',Electronics,English,594.78,2020,378,19-01-2025,02-02-2025,03-02-2025,Returned,25,2,20,3,Average
+Student_98,Male,20,Civil,4,B,7.31,85,No,Hostel,30.617,0,Civil_4.0,Book_27,Author_27,Oxford,Math,English,352.15,2020,308,01-10-2025,15-10-2025,02-01-2026,'Not Returned',7,2,20,5,Average
+Student_9,Male,21,EEE,2,A,8.11,77,Yes,Hostel,28.777,1,EEE_2.0,Book_42,Author_42,Oxford,Science,English,743.03,2019,420,27-09-2025,11-10-2025,09-10-2025,Returned,29,1,20,4,Average
+Student_4,Male,24,CSE,1,B,8.46,84,No,Hostel,31.122,0,CSE_1.0,Book_10,Author_10,Springer,Programming,Hindi,332.34,2021,767,23-09-2025,07-10-2025,07-10-2025,Returned,28,3,20,5,Excellent
+Student_102,Male,18,Civil,1,B,6.06,84,Yes,Hostel,29.442,1,Civil_1.0,Book_106,Author_106,Elsevier,Math,English,309.53,2019,751,30-08-2025,13-09-2025,02-01-2026,'Not Returned',10,1,10,2,Excellent
+Student_146,Female,24,ME,2,A,8.19,65,No,Hostel,25.233,0,ME_2.0,Book_121,Author_121,Elsevier,Electronics,Telugu,331.82,2021,187,08-06-2025,22-06-2025,23-06-2025,Returned,16,2,30,2,Excellent
+Student_19,Female,23,ME,2,C,5.22,63,No,Hostel,22.554,0,ME_2.0,Book_59,Author_59,Springer,Science,Hindi,627.06,2020,786,02-12-2025,16-12-2025,17-12-2025,Returned,18,2,20,5,Excellent
+Student_35,Male,19,ECE,4,A,6.08,95,Yes,DayScholar,32.756,1,ECE_4.0,Book_18,Author_18,Springer,Electronics,Telugu,650.78,2022,725,17-03-2025,31-03-2025,27-03-2025,Returned,19,2,20,5,Excellent
+Student_4,Male,24,CSE,1,B,8.46,84,No,Hostel,31.122,0,CSE_1.0,Book_122,Author_122,Springer,Science,English,239.13,2018,315,07-10-2025,21-10-2025,02-01-2026,'Not Returned',9,2,30,2,Excellent
+Student_73,Male,18,EEE,4,C,6.73,62,No,DayScholar,23.311,0,EEE_4.0,Book_95,Author_95,Elsevier,Mechanical,English,533.26,2022,226,16-09-2025,30-09-2025,02-01-2026,'Not Returned',21,1,30,5,Excellent
+Student_162,Male,18,EEE,1,B,7.43,88,No,DayScholar,31.601,0,EEE_1.0,Book_102,Author_102,Elsevier,Programming,Hindi,959.1,2023,598,17-10-2025,31-10-2025,04-11-2025,Returned,24,1,20,3,Excellent
+Student_171,Male,19,EEE,4,C,9.35,91,No,Hostel,33.845,0,EEE_4.0,Book_15,Author_15,Springer,Science,Hindi,866.6,2022,606,08-07-2025,22-07-2025,18-07-2025,Returned,20,2,20,2,Excellent
+Student_19,Female,23,ME,2,C,5.22,63,No,Hostel,22.554,0,ME_2.0,Book_21,Author_21,Pearson,Science,Telugu,890.68,2018,749,22-04-2025,06-05-2025,12-05-2025,Returned,23,1,20,1,Excellent
+Student_73,Male,18,EEE,4,C,6.73,62,No,DayScholar,23.311,0,EEE_4.0,Book_39,Author_39,'McGraw Hill',Math,Telugu,896.52,2023,693,07-03-2025,21-03-2025,21-03-2025,Returned,20,2,20,3,Excellent
+Student_89,Male,22,EEE,1,A,8.65,95,No,Hostel,34.555,0,EEE_1.0,Book_80,Author_80,Oxford,Civil,Hindi,918.83,2020,251,25-08-2025,08-09-2025,14-09-2025,Returned,11,1,20,3,Excellent
+Student_35,Male,19,ECE,4,A,6.08,95,Yes,DayScholar,32.756,1,ECE_4.0,Book_85,Author_85,Elsevier,Math,Telugu,353.95,2019,487,02-10-2025,16-10-2025,17-10-2025,Returned,21,1,20,1,Excellent
+Student_173,Female,21,Civil,3,B,8.75,82,Yes,DayScholar,30.725,1,Civil_3.0,Book_36,Author_36,Elsevier,Electronics,Hindi,200.11,2018,143,14-04-2025,28-04-2025,02-05-2025,Returned,25,1,20,5,Excellent
+Student_35,Male,19,ECE,4,A,6.08,95,Yes,DayScholar,32.756,1,ECE_4.0,Book_93,Author_93,Oxford,Electronics,Hindi,940.38,2019,229,11-11-2025,25-11-2025,25-11-2025,Returned,10,1,30,2,Excellent
+Student_18,Female,20,EEE,4,B,7.91,60,No,Hostel,23.537,0,EEE_4.0,Book_49,Author_49,'McGraw Hill',Civil,Hindi,550.64,2020,510,16-08-2025,30-08-2025,02-01-2026,'Not Returned',12,3,20,4,Excellent
+Student_10,Male,19,ECE,3,A,5.91,89,Yes,DayScholar,30.837,1,ECE_3.0,Book_154,Author_154,Springer,Civil,Hindi,478.7,2020,765,19-12-2025,02-01-2026,02-01-2026,'Not Returned',21,3,30,4,Excellent
+Student_84,Female,22,EEE,1,C,5.52,70,No,DayScholar,24.864,0,EEE_1.0,Book_122,Author_122,Springer,Science,English,239.13,2018,315,18-07-2025,01-08-2025,02-01-2026,'Not Returned',20,3,20,3,Excellent
+Student_100,Female,22,Civil,2,A,7.23,89,Yes,Hostel,31.761,1,Civil_2.0,Book_93,Author_93,Oxford,Electronics,Hindi,940.38,2019,229,28-06-2025,12-07-2025,17-07-2025,Returned,24,3,10,3,Excellent
+Student_65,Male,18,ECE,1,C,6.83,66,Yes,DayScholar,24.581,1,ECE_1.0,Book_60,Author_60,'McGraw Hill',Civil,English,520.79,2021,489,13-09-2025,27-09-2025,24-09-2025,Returned,9,3,20,3,Excellent
+Student_5,Female,23,CSE,1,A,6.43,92,Yes,DayScholar,32.101,1,CSE_1.0,Book_31,Author_31,Elsevier,Electronics,Hindi,703.41,2021,656,10-02-2025,24-02-2025,22-02-2025,Returned,29,2,30,2,Excellent
+Student_73,Male,18,EEE,4,C,6.73,62,No,DayScholar,23.311,0,EEE_4.0,Book_37,Author_37,Oxford,Science,Telugu,920.63,2023,304,03-08-2025,17-08-2025,23-08-2025,Returned,26,2,30,2,Excellent
+Student_160,Female,19,EEE,1,B,7.94,60,No,DayScholar,23.558,0,EEE_1.0,Book_69,Author_69,Pearson,Science,English,992.39,2019,444,04-06-2025,18-06-2025,02-01-2026,'Not Returned',30,2,20,1,Excellent
+Student_26,Male,21,EEE,2,C,6.95,63,Yes,DayScholar,23.765,1,EEE_2.0,Book_56,Author_56,Pearson,Math,Telugu,985.86,2021,700,30-11-2025,14-12-2025,14-12-2025,Returned,26,1,20,3,Excellent
+Student_119,Female,24,EEE,3,A,6.17,66,Yes,Hostel,24.119,1,EEE_3.0,Book_5,Author_5,'McGraw Hill',Math,Hindi,510.39,2019,733,26-10-2025,09-11-2025,02-01-2026,'Not Returned',9,2,30,2,Excellent
+Student_144,Male,19,CSE,2,A,9.34,84,No,DayScholar,31.738,0,CSE_2.0,Book_80,Author_80,Oxford,Civil,Hindi,918.83,2020,251,03-07-2025,17-07-2025,02-01-2026,'Not Returned',7,2,20,4,Excellent
+Student_147,Female,19,EEE,3,C,7.89,87,No,Hostel,31.623,0,EEE_3.0,Book_25,Author_25,Pearson,Civil,Telugu,277.63,2019,413,31-01-2025,14-02-2025,19-02-2025,Returned,10,3,20,1,Excellent
+Student_113,Female,18,CSE,1,A,7.41,87,Yes,Hostel,31.287,1,CSE_1.0,Book_50,Author_50,Elsevier,Science,Hindi,552.28,2021,482,05-06-2025,19-06-2025,02-01-2026,'Not Returned',16,2,20,3,Excellent
+Student_115,Female,22,EEE,4,A,9.93,88,No,DayScholar,33.351,0,EEE_4.0,Book_99,Author_99,Elsevier,Math,English,896.08,2020,296,19-08-2025,02-09-2025,31-08-2025,Returned,24,2,10,4,Excellent
+Student_55,Female,18,EEE,2,C,8.72,77,No,DayScholar,29.204,0,EEE_2.0,Book_106,Author_106,Elsevier,Math,English,309.53,2019,751,21-11-2025,05-12-2025,02-01-2026,'Not Returned',21,2,20,3,Excellent
+Student_35,Male,19,ECE,4,A,6.08,95,Yes,DayScholar,32.756,1,ECE_4.0,Book_57,Author_57,'McGraw Hill',Mechanical,Hindi,341.36,2018,495,08-08-2025,22-08-2025,02-01-2026,'Not Returned',15,3,20,2,Excellent
+Student_144,Male,19,CSE,2,A,9.34,84,No,DayScholar,31.738,0,CSE_2.0,Book_83,Author_83,'McGraw Hill',Science,Telugu,422.87,2020,106,27-11-2025,11-12-2025,02-01-2026,'Not Returned',8,2,20,4,Excellent
+Student_147,Female,19,EEE,3,C,7.89,87,No,Hostel,31.623,0,EEE_3.0,Book_44,Author_44,Elsevier,Science,Hindi,445.03,2023,233,05-02-2025,19-02-2025,22-02-2025,Returned,29,2,10,2,Excellent
+Student_89,Male,22,EEE,1,A,8.65,95,No,Hostel,34.555,0,EEE_1.0,Book_150,Author_150,Oxford,Math,Hindi,965.29,2018,584,26-01-2025,09-02-2025,12-02-2025,Returned,30,2,20,5,Excellent
+Student_26,Male,21,EEE,2,C,6.95,63,Yes,DayScholar,23.765,1,EEE_2.0,Book_63,Author_63,Pearson,Math,Hindi,460.06,2023,418,23-01-2025,06-02-2025,08-02-2025,Returned,19,1,10,5,Excellent
+Student_160,Female,19,EEE,1,B,7.94,60,No,DayScholar,23.558,0,EEE_1.0,Book_16,Author_16,Elsevier,Science,English,411.7,2021,514,09-07-2025,23-07-2025,02-01-2026,'Not Returned',24,2,20,3,Excellent
+Student_123,Female,21,CSE,2,C,8.17,79,No,DayScholar,29.419,0,CSE_2.0,Book_28,Author_28,Elsevier,Science,Hindi,760.31,2019,450,12-06-2025,26-06-2025,22-06-2025,Returned,14,3,20,4,Good
+Student_13,Male,20,ECE,2,A,5.11,81,Yes,DayScholar,27.877,1,ECE_2.0,Book_154,Author_154,Springer,Civil,Hindi,478.7,2020,765,10-02-2025,24-02-2025,23-02-2025,Returned,13,2,20,5,Good
+Student_51,Female,19,Civil,3,A,6,84,No,Hostel,29.4,0,Civil_3.0,Book_91,Author_91,Pearson,Science,English,837.21,2018,591,18-10-2025,01-11-2025,30-10-2025,Returned,11,3,20,3,Good
+Student_51,Female,19,Civil,3,A,6,84,No,Hostel,29.4,0,Civil_3.0,Book_38,Author_38,'McGraw Hill',Civil,English,341.81,2022,484,22-03-2025,05-04-2025,10-04-2025,Returned,24,1,10,3,Good
+Student_130,Female,22,ME,1,B,7.03,82,Yes,DayScholar,29.521,1,ME_1.0,Book_4,Author_4,'McGraw Hill',Electronics,Hindi,233.05,2024,433,08-09-2025,22-09-2025,26-09-2025,Returned,7,2,10,2,Good
+Student_45,Female,20,CSE,1,C,5.86,89,No,DayScholar,30.802,0,CSE_1.0,Book_93,Author_93,Oxford,Electronics,Hindi,940.38,2019,229,29-11-2025,13-12-2025,12-12-2025,Returned,26,2,30,3,Good
+Student_123,Female,21,CSE,2,C,8.17,79,No,DayScholar,29.419,0,CSE_2.0,Book_114,Author_114,'McGraw Hill',Mechanical,English,948.61,2020,450,11-06-2025,25-06-2025,02-01-2026,'Not Returned',11,2,10,5,Good
+Student_96,Female,22,ECE,3,A,6.19,85,Yes,Hostel,29.833,1,ECE_3.0,Book_50,Author_50,'McGraw Hill',Science,Telugu,552.28,2022,674,27-08-2025,10-09-2025,08-09-2025,Returned,25,2,10,3,Good
+Student_75,Female,18,CSE,2,C,9.05,63,No,Hostel,25.235,0,CSE_2.0,Book_132,Author_132,Oxford,Math,Telugu,501.1,2021,684,19-02-2025,05-03-2025,07-03-2025,Returned,19,2,20,3,Good
+Student_57,Male,24,ME,2,C,5.5,79,No,DayScholar,27.55,0,ME_2.0,Book_57,Author_57,'McGraw Hill',Mechanical,Hindi,341.36,2018,495,07-10-2025,21-10-2025,21-10-2025,Returned,13,2,20,3,Good
+Student_45,Female,20,CSE,1,C,5.86,89,No,DayScholar,30.802,0,CSE_1.0,Book_50,Author_50,'McGraw Hill',Science,Telugu,552.28,2022,674,25-04-2025,09-05-2025,05-05-2025,Returned,25,2,20,4,Good
+Student_96,Female,22,ECE,3,A,6.19,85,Yes,Hostel,29.833,1,ECE_3.0,Book_44,Author_44,Elsevier,Science,Hindi,445.03,2023,233,21-01-2025,04-02-2025,05-02-2025,Returned,16,3,20,3,Good
+Student_25,Male,21,ME,3,A,7.81,93,Yes,DayScholar,33.367,1,ME_3.0,Book_53,Author_53,Pearson,Programming,Telugu,745.71,2020,106,29-08-2025,12-09-2025,13-09-2025,Returned,29,2,20,1,Good
+Student_150,Female,22,ECE,4,A,8.83,75,No,DayScholar,28.681,0,ECE_4.0,Book_140,Author_140,Oxford,Science,Telugu,710.29,2021,489,14-03-2025,28-03-2025,24-03-2025,Returned,27,1,20,4,Good
+Student_71,Male,23,ECE,3,A,7.98,97,No,Hostel,34.686,0,ECE_3.0,Book_36,Author_36,Elsevier,Electronics,Hindi,200.11,2018,143,09-10-2025,23-10-2025,22-10-2025,Returned,12,3,20,1,Good
+Student_51,Female,19,Civil,3,A,6,84,No,Hostel,29.4,0,Civil_3.0,Book_48,Author_48,'McGraw Hill',Programming,Telugu,366.33,2022,558,19-12-2025,02-01-2026,02-01-2026,'Not Returned',11,3,30,3,Good
+Student_22,Male,19,Civil,3,B,9.3,63,Yes,DayScholar,25.41,1,Civil_3.0,Book_37,Author_37,Oxford,Science,Telugu,920.63,2023,304,14-08-2025,28-08-2025,27-08-2025,Returned,29,2,20,4,Good
+Student_130,Female,22,ME,1,B,7.03,82,Yes,DayScholar,29.521,1,ME_1.0,Book_44,Author_44,Elsevier,Science,Hindi,445.03,2023,233,27-05-2025,10-06-2025,06-06-2025,Returned,21,1,20,5,Good
+Student_80,Female,24,ME,2,C,9.08,73,Yes,DayScholar,28.256,1,ME_2.0,Book_35,Author_35,'McGraw Hill',Mechanical,Hindi,273.35,2020,558,19-11-2025,03-12-2025,06-12-2025,Returned,14,1,10,3,Good
+Student_82,Male,21,ECE,3,B,9.1,82,No,DayScholar,30.97,0,ECE_3.0,Book_98,Author_98,'McGraw Hill',Math,Telugu,848.16,2020,228,05-08-2025,19-08-2025,22-08-2025,Returned,25,1,20,3,Good
+Student_3,Female,22,ME,4,C,6.19,66,Yes,Hostel,24.133,1,ME_4.0,Book_118,Author_118,Springer,Electronics,English,773.96,2022,222,30-05-2025,13-06-2025,15-06-2025,Returned,9,1,20,2,Good
+Student_151,Male,22,EEE,4,B,6.69,89,No,DayScholar,31.383,0,EEE_4.0,Book_42,Author_42,Oxford,Science,English,743.03,2019,420,21-05-2025,04-06-2025,10-06-2025,Returned,14,1,20,2,Good
+Student_51,Female,19,Civil,3,A,6,84,No,Hostel,29.4,0,Civil_3.0,Book_6,Author_6,Elsevier,Civil,Hindi,645.99,2024,771,29-03-2025,12-04-2025,11-04-2025,Returned,11,2,20,5,Good
+Student_15,Female,22,ECE,2,A,7.03,93,Yes,Hostel,32.821,1,ECE_2.0,Book_102,Author_102,Elsevier,Programming,Hindi,959.1,2023,598,03-04-2025,17-04-2025,14-04-2025,Returned,13,1,10,3,Good
+Student_152,Female,19,EEE,2,B,5.86,88,Yes,Hostel,30.502,1,EEE_2.0,Book_146,Author_146,Pearson,Mechanical,Hindi,976.15,2023,371,29-03-2025,12-04-2025,17-04-2025,Returned,7,2,30,3,Good
+Student_25,Male,21,ME,3,A,7.81,93,Yes,DayScholar,33.367,1,ME_3.0,Book_126,Author_126,Springer,Science,Hindi,661.09,2023,536,28-11-2025,12-12-2025,08-12-2025,Returned,23,2,30,1,Good
+Student_37,Female,21,ME,4,B,8.95,90,Yes,Hostel,33.265,1,ME_4.0,Book_101,Author_101,Oxford,Electronics,Telugu,938.59,2018,783,19-02-2025,05-03-2025,01-03-2025,Returned,14,3,20,3,Good
+Student_151,Male,22,EEE,4,B,6.69,89,No,DayScholar,31.383,0,EEE_4.0,Book_85,Author_85,Elsevier,Math,Telugu,353.95,2019,487,12-01-2025,26-01-2025,30-01-2025,Returned,22,1,20,5,Good
+Student_96,Female,22,ECE,3,A,6.19,85,Yes,Hostel,29.833,1,ECE_3.0,Book_24,Author_24,'McGraw Hill',Science,Telugu,816.69,2023,185,13-04-2025,27-04-2025,25-04-2025,Returned,17,1,30,1,Good
+Student_101,Female,24,CSE,4,B,9.78,85,Yes,DayScholar,32.346,1,CSE_4.0,Book_115,Author_115,Elsevier,Science,Telugu,542.02,2020,126,30-03-2025,13-04-2025,09-04-2025,Returned,18,3,30,5,Good
+Student_80,Female,24,ME,2,C,9.08,73,Yes,DayScholar,28.256,1,ME_2.0,Book_4,Author_4,'McGraw Hill',Electronics,Hindi,233.05,2024,433,19-06-2025,03-07-2025,04-07-2025,Returned,9,1,20,2,Good
+Student_150,Female,22,ECE,4,A,8.83,75,No,DayScholar,28.681,0,ECE_4.0,Book_156,Author_156,Pearson,Science,Telugu,552.28,2021,232,26-05-2025,09-06-2025,10-06-2025,Returned,8,3,20,3,Good
+Student_80,Female,24,ME,2,C,9.08,73,Yes,DayScholar,28.256,1,ME_2.0,Book_116,Author_116,'McGraw Hill',Civil,English,464.12,2021,733,23-05-2025,06-06-2025,02-06-2025,Returned,8,3,30,3,Good
+Student_58,Male,24,Civil,2,C,5.58,95,Yes,DayScholar,32.406,1,Civil_2.0,Book_137,Author_137,Elsevier,Programming,English,454.37,2018,139,16-03-2025,30-03-2025,02-04-2025,Returned,23,3,20,3,Good
+Student_178,Male,19,Civil,4,A,9.38,86,Yes,Hostel,32.366,1,Civil_4.0,Book_15,Author_15,Springer,Science,Hindi,866.6,2022,606,23-07-2025,06-08-2025,10-08-2025,Returned,29,2,10,4,Good
+Student_51,Female,19,Civil,3,A,6,84,No,Hostel,29.4,0,Civil_3.0,Book_18,Author_18,Springer,Electronics,Telugu,650.78,2022,725,03-07-2025,17-07-2025,13-07-2025,Returned,18,3,30,4,Good
+Student_80,Female,24,ME,2,C,9.08,73,Yes,DayScholar,28.256,1,ME_2.0,Book_120,Author_120,Elsevier,Math,English,785.02,2021,632,20-02-2025,06-03-2025,02-01-2026,'Not Returned',17,3,20,4,Good
+Student_108,Female,20,CSE,4,C,9.03,66,Yes,DayScholar,26.121,1,CSE_4.0,Book_103,Author_103,Pearson,Science,Telugu,495.33,2019,506,30-05-2025,13-06-2025,09-06-2025,Returned,22,3,10,3,Good
+Student_138,Female,18,EEE,4,A,7.62,69,Yes,DayScholar,26.034,1,EEE_4.0,Book_50,Author_50,'McGraw Hill',Science,Telugu,552.28,2022,674,12-12-2025,26-12-2025,01-01-2026,Returned,19,1,30,4,Good
+Student_110,Male,22,ECE,2,C,8.63,98,No,Hostel,35.441,0,ECE_2.0,Book_56,Author_56,Pearson,Math,Telugu,985.86,2021,700,11-01-2025,25-01-2025,31-01-2025,Returned,23,3,20,2,Good
+Student_45,Female,20,CSE,1,C,5.86,89,No,DayScholar,30.802,0,CSE_1.0,Book_151,Author_151,Elsevier,Civil,Telugu,249.4,2018,149,16-04-2025,30-04-2025,04-05-2025,Returned,30,2,20,5,Good
+Student_150,Female,22,ECE,4,A,8.83,75,No,DayScholar,28.681,0,ECE_4.0,Book_25,Author_25,Pearson,Civil,Telugu,277.63,2019,413,10-11-2025,24-11-2025,02-01-2026,'Not Returned',13,3,20,4,Good
+Student_15,Female,22,ECE,2,A,7.03,93,Yes,Hostel,32.821,1,ECE_2.0,Book_83,Author_83,'McGraw Hill',Science,Telugu,422.87,2020,106,25-05-2025,08-06-2025,12-06-2025,Returned,27,2,20,5,Good
+Student_58,Male,24,Civil,2,C,5.58,95,Yes,DayScholar,32.406,1,Civil_2.0,Book_13,Author_13,Oxford,Math,Hindi,506.68,2020,304,08-10-2025,22-10-2025,23-10-2025,Returned,30,2,20,5,Good
+Student_71,Male,23,ECE,3,A,7.98,97,No,Hostel,34.686,0,ECE_3.0,Book_138,Author_138,Elsevier,Programming,Telugu,248.93,2020,472,06-09-2025,20-09-2025,02-01-2026,'Not Returned',30,1,20,3,Good
+Student_25,Male,21,ME,3,A,7.81,93,Yes,DayScholar,33.367,1,ME_3.0,Book_149,Author_149,Oxford,Mechanical,Hindi,753.45,2021,100,05-02-2025,19-02-2025,20-02-2025,Returned,26,2,20,3,Good
+Student_37,Female,21,ME,4,B,8.95,90,Yes,Hostel,33.265,1,ME_4.0,Book_38,Author_38,'McGraw Hill',Civil,English,341.81,2022,484,09-09-2025,23-09-2025,23-09-2025,Returned,16,2,30,2,Good
+Student_154,Male,24,ME,2,B,9.94,67,Yes,Hostel,27.058,1,ME_2.0,Book_81,Author_81,Elsevier,Math,Hindi,734.77,2024,623,02-02-2025,16-02-2025,18-02-2025,Returned,10,2,20,4,Good
+Student_179,Male,24,ECE,3,A,6.16,86,No,DayScholar,30.112,0,ECE_3.0,Book_27,Author_27,Oxford,Math,English,352.15,2020,308,05-10-2025,19-10-2025,17-10-2025,Returned,21,2,30,5,Good
+Student_151,Male,22,EEE,4,B,6.69,89,No,DayScholar,31.383,0,EEE_4.0,Book_21,Author_21,Pearson,Science,Telugu,890.68,2018,749,30-09-2025,14-10-2025,20-10-2025,Returned,20,1,20,2,Good
+Student_81,Female,23,ECE,1,B,8.31,98,No,DayScholar,35.217,0,ECE_1.0,Book_131,Author_131,Oxford,Civil,Hindi,247.84,2023,583,26-09-2025,10-10-2025,02-01-2026,'Not Returned',10,2,20,3,Good
+Student_81,Female,23,ECE,1,B,8.31,98,No,DayScholar,35.217,0,ECE_1.0,Book_3,Author_3,Oxford,Math,English,929.15,2018,179,20-07-2025,03-08-2025,01-08-2025,Returned,29,1,10,3,Good
+Student_39,Male,24,ECE,3,C,8.2,97,Yes,DayScholar,34.84,1,ECE_3.0,Book_78,Author_78,Pearson,Civil,Telugu,482.9,2020,479,13-08-2025,27-08-2025,02-01-2026,'Not Returned',19,1,20,3,Poor
+Student_174,Male,23,ECE,4,A,6.54,84,Yes,Hostel,29.778,1,ECE_4.0,Book_2,Author_2,Springer,Science,English,781.43,2023,790,17-12-2025,31-12-2025,02-01-2026,Returned,20,2,20,5,Poor
+Student_117,Female,20,CSE,3,A,7.96,65,No,DayScholar,25.072,0,CSE_3.0,Book_90,Author_90,'McGraw Hill',Math,English,883.77,2023,713,05-09-2025,19-09-2025,02-01-2026,'Not Returned',23,2,10,3,Poor
+Student_53,Male,19,ECE,4,B,8.93,73,Yes,DayScholar,28.151,1,ECE_4.0,Book_5,Author_5,'McGraw Hill',Math,Hindi,510.39,2019,733,10-07-2025,24-07-2025,20-07-2025,Returned,23,1,20,2,Poor
+Student_111,Female,19,ME,4,C,5.06,84,No,Hostel,28.742,0,ME_4.0,Book_3,Author_3,Oxford,Math,English,929.15,2018,179,17-12-2025,31-12-2025,05-01-2026,Returned,19,1,20,4,Poor
+Student_140,Female,21,ME,4,A,8.59,96,Yes,Hostel,34.813,1,ME_4.0,Book_78,Author_78,Pearson,Civil,Telugu,482.9,2020,479,27-05-2025,10-06-2025,15-06-2025,Returned,21,3,20,1,Poor
+Student_47,Female,18,ME,1,A,6.29,79,No,DayScholar,28.103,0,ME_1.0,Book_23,Author_23,Oxford,Electronics,Hindi,877.98,2023,373,05-07-2025,19-07-2025,23-07-2025,Returned,11,2,30,3,Poor
+Student_17,Male,21,Civil,4,B,9.52,65,Yes,DayScholar,26.164,1,Civil_4.0,Book_6,Author_6,Elsevier,Civil,Hindi,645.99,2024,771,23-05-2025,06-06-2025,02-01-2026,'Not Returned',9,2,20,3,Poor
+Student_159,Male,24,ME,1,A,8.27,91,No,Hostel,33.089,0,ME_1.0,Book_10,Author_10,Springer,Programming,Hindi,332.34,2021,767,02-12-2025,16-12-2025,02-01-2026,'Not Returned',13,1,20,3,Poor
+Student_167,Male,20,ME,4,B,6.79,90,No,Hostel,31.753,0,ME_4.0,Book_121,Author_121,Elsevier,Electronics,Telugu,331.82,2021,187,17-11-2025,01-12-2025,27-11-2025,Returned,17,3,20,5,Poor
+Student_118,Male,22,Civil,4,A,6.24,92,Yes,DayScholar,31.968,1,Civil_4.0,Book_22,Author_22,Springer,Civil,Telugu,552.28,2022,630,26-04-2025,10-05-2025,15-05-2025,Returned,10,1,30,3,Poor
+Student_114,Female,19,Civil,2,B,8.09,63,No,Hostel,24.563,0,Civil_2.0,Book_50,Author_50,'McGraw Hill',Science,Telugu,552.28,2022,674,14-08-2025,28-08-2025,27-08-2025,Returned,29,3,10,4,Poor
+Student_111,Female,19,ME,4,C,5.06,84,No,Hostel,28.742,0,ME_4.0,Book_27,Author_27,Oxford,Math,English,352.15,2020,308,11-02-2025,25-02-2025,27-02-2025,Returned,30,2,30,3,Poor
+Student_47,Female,18,ME,1,A,6.29,79,No,DayScholar,28.103,0,ME_1.0,Book_137,Author_137,Elsevier,Programming,English,454.37,2018,139,07-08-2025,21-08-2025,18-08-2025,Returned,12,2,20,1,Poor
+Student_155,Female,19,ME,1,B,8.8,98,No,Hostel,35.56,0,ME_1.0,Book_79,Author_79,'McGraw Hill',Programming,English,553.44,2021,240,30-08-2025,13-09-2025,10-09-2025,Returned,22,2,20,3,Poor
+Student_68,Male,23,ME,4,C,6.14,87,Yes,Hostel,30.398,1,ME_4.0,Book_131,Author_131,Oxford,Civil,Hindi,247.84,2023,583,20-08-2025,03-09-2025,30-08-2025,Returned,18,2,20,1,Poor
+Student_66,Male,22,CSE,2,C,7.42,78,Yes,Hostel,28.594,1,CSE_2.0,Book_69,Author_69,Pearson,Science,English,992.39,2019,444,24-07-2025,07-08-2025,03-08-2025,Returned,24,2,20,1,Poor
+Student_104,Male,20,Civil,4,B,6.71,67,Yes,DayScholar,24.797,1,Civil_4.0,Book_149,Author_149,Oxford,Mechanical,Hindi,753.45,2021,100,10-02-2025,24-02-2025,02-01-2026,'Not Returned',28,3,20,2,Poor
+Student_159,Male,24,ME,1,A,8.27,91,No,Hostel,33.089,0,ME_1.0,Book_117,Author_117,Oxford,Mechanical,Telugu,739.82,2024,373,14-08-2025,28-08-2025,28-08-2025,Returned,8,2,30,3,Poor
+Student_39,Male,24,ECE,3,C,8.2,97,Yes,DayScholar,34.84,1,ECE_3.0,Book_14,Author_153,Pearson,Programming,English,714.93,2024,252,27-01-2025,10-02-2025,06-02-2025,Returned,14,2,10,5,Poor
+Student_66,Male,22,CSE,2,C,7.42,78,Yes,Hostel,28.594,1,CSE_2.0,Book_14,Author_153,Pearson,Programming,English,714.93,2024,252,23-06-2025,07-07-2025,10-07-2025,Returned,10,1,10,5,Poor
+Student_167,Male,20,ME,4,B,6.79,90,No,Hostel,31.753,0,ME_4.0,Book_94,Author_94,Pearson,Science,English,866.68,2020,553,07-09-2025,21-09-2025,17-09-2025,Returned,21,2,10,3,Poor
+Student_128,Female,18,CSE,4,B,5.64,79,No,Hostel,27.648,0,CSE_4.0,Book_76,Author_76,Pearson,Civil,English,791.97,2023,212,09-08-2025,23-08-2025,22-08-2025,Returned,19,1,20,3,Poor
+Student_174,Male,23,ECE,4,A,6.54,84,Yes,Hostel,29.778,1,ECE_4.0,Book_110,Author_110,Springer,Math,Hindi,974.47,2023,455,29-06-2025,13-07-2025,09-07-2025,Returned,17,2,20,3,Poor
+Student_31,Female,20,ME,4,C,8.54,67,No,Hostel,26.078,0,ME_4.0,Book_22,Author_22,Springer,Civil,Telugu,552.28,2022,630,01-07-2025,15-07-2025,02-01-2026,'Not Returned',13,2,30,3,Poor
+Student_165,Male,19,ME,3,A,9.08,86,No,Hostel,32.156,0,ME_3.0,Book_90,Author_90,'McGraw Hill',Math,English,883.77,2023,713,27-05-2025,10-06-2025,09-06-2025,Returned,21,2,30,4,Poor
+Student_135,Male,20,ECE,2,A,8.38,85,Yes,Hostel,31.366,1,ECE_2.0,Book_111,Author_111,Pearson,Electronics,English,505.88,2022,748,13-09-2025,27-09-2025,29-09-2025,Returned,8,3,30,1,Poor
+Student_53,Male,19,ECE,4,B,8.93,73,Yes,DayScholar,28.151,1,ECE_4.0,Book_143,Author_143,Elsevier,Programming,English,637.02,2021,763,21-07-2025,04-08-2025,05-08-2025,Returned,9,2,30,4,Poor
+Student_53,Male,19,ECE,4,B,8.93,73,Yes,DayScholar,28.151,1,ECE_4.0,Book_132,Author_132,Oxford,Math,Telugu,501.1,2021,684,27-10-2025,10-11-2025,10-11-2025,Returned,20,3,30,2,Poor
+Student_107,Male,19,CSE,1,A,9,83,Yes,Hostel,31.2,1,CSE_1.0,Book_17,Author_17,Pearson,Science,Telugu,552.28,2022,512,24-03-2025,07-04-2025,09-04-2025,Returned,20,2,10,1,Poor
+Student_23,Female,22,ECE,2,A,8.98,75,Yes,DayScholar,28.786,1,ECE_2.0,Book_46,Author_46,Springer,Civil,English,282.72,2021,392,02-04-2025,16-04-2025,18-04-2025,Returned,30,2,30,5,Poor
+Student_117,Female,20,CSE,3,A,7.96,65,No,DayScholar,25.072,0,CSE_3.0,Book_50,Author_50,Elsevier,Science,Hindi,552.28,2021,482,27-04-2025,11-05-2025,02-01-2026,'Not Returned',13,2,10,5,Poor
+Student_8,Female,18,ME,2,B,6.33,81,No,Hostel,28.731,0,ME_2.0,Book_49,Author_49,'McGraw Hill',Civil,Hindi,550.64,2020,510,27-07-2025,10-08-2025,06-08-2025,Returned,10,1,20,1,Poor
+Student_30,Male,21,Civil,2,B,6.72,88,No,DayScholar,31.104,0,Civil_2.0,Book_133,Author_133,Springer,Science,Hindi,250.88,2019,740,07-01-2025,21-01-2025,02-01-2026,'Not Returned',22,3,30,5,Poor
+Student_39,Male,24,ECE,3,C,8.2,97,Yes,DayScholar,34.84,1,ECE_3.0,Book_27,Author_27,Oxford,Math,English,352.15,2020,308,27-03-2025,10-04-2025,08-04-2025,Returned,7,1,30,2,Poor
+Student_167,Male,20,ME,4,B,6.79,90,No,Hostel,31.753,0,ME_4.0,Book_98,Author_98,'McGraw Hill',Math,Telugu,848.16,2020,228,08-09-2025,22-09-2025,18-09-2025,Returned,24,1,10,2,Poor
+Student_161,Female,18,ME,1,A,5.18,81,No,Hostel,27.926,0,ME_1.0,Book_147,Author_147,Oxford,Electronics,Telugu,260.63,2019,346,05-07-2025,19-07-2025,24-07-2025,Returned,8,2,20,1,Poor
+Student_24,Female,20,EEE,2,B,6.57,73,No,DayScholar,26.499,0,EEE_2.0,Book_132,Author_132,Oxford,Math,Telugu,501.1,2021,684,07-03-2025,21-03-2025,27-03-2025,Returned,13,2,10,4,Poor
+Student_117,Female,20,CSE,3,A,7.96,65,No,DayScholar,25.072,0,CSE_3.0,Book_132,Author_132,Oxford,Math,Telugu,501.1,2021,684,18-07-2025,01-08-2025,04-08-2025,Returned,20,3,10,4,Poor
+Student_169,Female,18,ME,1,C,8.03,76,Yes,DayScholar,28.421,1,ME_1.0,Book_112,Author_112,Pearson,Civil,English,818.02,2023,273,04-09-2025,18-09-2025,02-01-2026,'Not Returned',21,1,20,1,Poor
+Student_103,Male,18,CSE,4,B,6.99,85,No,DayScholar,30.393,0,CSE_4.0,Book_17,Author_17,Pearson,Science,Telugu,552.28,2022,512,30-06-2025,14-07-2025,02-01-2026,'Not Returned',24,3,30,2,Poor
+Student_104,Male,20,Civil,4,B,6.71,67,Yes,DayScholar,24.797,1,Civil_4.0,Book_47,Author_47,Oxford,Mechanical,English,320.56,2018,302,09-05-2025,23-05-2025,02-01-2026,'Not Returned',10,3,20,2,Poor
+Student_94,Female,22,EEE,4,C,5.9,67,Yes,DayScholar,24.23,1,EEE_4.0,Book_85,Author_85,Elsevier,Math,Telugu,353.95,2019,487,22-02-2025,08-03-2025,05-03-2025,Returned,20,1,20,3,Poor
+Student_159,Male,24,ME,1,A,8.27,91,No,Hostel,33.089,0,ME_1.0,Book_67,Author_67,Oxford,Math,Hindi,621.08,2020,223,09-03-2025,23-03-2025,23-03-2025,Returned,8,2,30,3,Poor
+Student_117,Female,20,CSE,3,A,7.96,65,No,DayScholar,25.072,0,CSE_3.0,Book_123,Author_123,Oxford,Civil,Hindi,734.43,2018,333,22-12-2025,05-01-2026,08-01-2026,Returned,10,1,10,4,Poor
+Student_155,Female,19,ME,1,B,8.8,98,No,Hostel,35.56,0,ME_1.0,Book_50,Author_50,'McGraw Hill',Science,Telugu,552.28,2022,674,02-07-2025,16-07-2025,17-07-2025,Returned,26,1,30,3,Poor
+Student_17,Male,21,Civil,4,B,9.52,65,Yes,DayScholar,26.164,1,Civil_4.0,Book_11,Author_11,Springer,Civil,Hindi,406.99,2021,612,19-01-2025,02-02-2025,06-02-2025,Returned,30,2,30,1,Poor
+Student_107,Male,19,CSE,1,A,9,83,Yes,Hostel,31.2,1,CSE_1.0,Book_47,Author_47,Oxford,Mechanical,English,320.56,2018,302,01-09-2025,15-09-2025,12-09-2025,Returned,25,2,20,4,Poor
+Student_140,Female,21,ME,4,A,8.59,96,Yes,Hostel,34.813,1,ME_4.0,Book_29,Author_29,Elsevier,Mechanical,English,779.68,2022,546,11-06-2025,25-06-2025,25-06-2025,Returned,7,2,20,3,Poor

@@ -1,0 +1,114 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.15 -M 5
+Relation:     academic_performance-weka.filters.unsupervised.attribute.Reorder-R1,2,3,4,5,6,7,8,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,9-weka.filters.unsupervised.attribute.Remove-R1,14,15,16,22,23,24
+Instances:    200
+Attributes:   23
+              Gender
+              Age
+              Department
+              Year_of_Study
+              Section
+              CGPA
+              Attendance_Percentage
+              Scholarship_Status
+              Hostel_DayScholar
+              Performance_Index
+              Scholarship_Flag
+              Student_Category
+              Book_Category
+              Language
+              Book_Price
+              Publication_Year
+              Pages
+              Issue_Status
+              Number_of_Days_Issued
+              Renew_Count
+              Fine_Amount
+              Late_Return_Count
+              Academic_Performance
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+Performance_Index <= 24.119
+|   Department = CSE: Average (3.0)
+|   Department = ECE: Average (2.0)
+|   Department = Civil: Average (5.0)
+|   Department = EEE: Excellent (12.0/3.0)
+|   Department = ME: Excellent (3.0/1.0)
+Performance_Index > 24.119
+|   Student_Category = CSE_2.0
+|   |   Attendance_Percentage <= 81: Good (5.0/2.0)
+|   |   Attendance_Percentage > 81: Average (7.0/2.0)
+|   Student_Category = CSE_1.0
+|   |   Performance_Index <= 30.837: Good (5.0/2.0)
+|   |   Performance_Index > 30.837: Excellent (6.0/2.0)
+|   Student_Category = ECE_2.0
+|   |   Performance_Index <= 27.648: Average (5.0)
+|   |   Performance_Index > 27.648: Good (6.0/2.0)
+|   Student_Category = Civil_3.0: Good (8.0/2.0)
+|   Student_Category = ECE_3.0
+|   |   CGPA <= 8.09: Good (7.0/1.0)
+|   |   CGPA > 8.09: Poor (5.0/2.0)
+|   Student_Category = EEE_2.0: Average (9.0/3.0)
+|   Student_Category = ECE_4.0
+|   |   CGPA <= 6.29: Excellent (6.0/2.0)
+|   |   CGPA > 6.29: Poor (9.0/4.0)
+|   Student_Category = ECE_1.0: Average (8.0/3.0)
+|   Student_Category = CSE_3.0: Poor (4.0)
+|   Student_Category = ME_1.0: Poor (11.0/2.0)
+|   Student_Category = ME_2.0
+|   |   CGPA <= 8.65: Average (6.0/3.0)
+|   |   CGPA > 8.65: Good (5.0)
+|   Student_Category = EEE_4.0
+|   |   Performance_Index <= 31.383: Good (6.0/2.0)
+|   |   Performance_Index > 31.383: Average (7.0/2.0)
+|   Student_Category = ME_4.0: Poor (13.0/4.0)
+|   Student_Category = Civil_1.0: Average (2.0/1.0)
+|   Student_Category = ME_3.0: Good (4.0/1.0)
+|   Student_Category = Civil_4.0: Poor (8.0/3.0)
+|   Student_Category = EEE_3.0: Excellent (2.0)
+|   Student_Category = Civil_2.0: Average (7.0/5.0)
+|   Student_Category = EEE_1.0: Average (8.0/4.0)
+|   Student_Category = CSE_4.0: Average (6.0/4.0)
+
+Number of Leaves  : 	32
+
+Size of the tree : 	42
+
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         104               52      %
+Incorrectly Classified Instances        96               48      %
+Kappa statistic                          0.3475
+Mean absolute error                      0.2873
+Root mean squared error                  0.4206
+Relative absolute error                 77.5309 %
+Root relative squared error             97.7183 %
+Total Number of Instances              200     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.587    0.299    0.474      0.587    0.525      0.274    0.675     0.444     Average
+                 0.389    0.122    0.412      0.389    0.400      0.273    0.645     0.331     Excellent
+                 0.423    0.135    0.524      0.423    0.468      0.310    0.708     0.474     Good
+                 0.633    0.099    0.674      0.633    0.653      0.545    0.796     0.624     Poor
+Weighted Avg.    0.520    0.176    0.525      0.520    0.519      0.350    0.708     0.476     
+
+=== Confusion Matrix ===
+
+  a  b  c  d   <-- classified as
+ 37 13  7  6 |  a = Average
+ 17 14  5  0 |  b = Excellent
+ 16  5 22  9 |  c = Good
+  8  2  8 31 |  d = Poor
+

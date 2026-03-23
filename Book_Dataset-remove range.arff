@@ -1,0 +1,24 @@
+@relation Book_Dataset-weka.filters.unsupervised.instance.Resample-S1-Z100.0-weka.filters.unsupervised.instance.RemoveRange-Rfirst-last
+
+@attribute Book_ID {B2000,B2001,B2002,B2003,B2004,B2005,B2006,B2007,B2008,B2009,B2010,B2011,B2012,B2013,B2014,B2015,B2016,B2017,B2018,B2019,B2020,B2021,B2022,B2023,B2024,B2025,B2026,B2027,B2028,B2029,B2030,B2031,B2032,B2033,B2034,B2035,B2036,B2037,B2038,B2039,B2040,B2041,B2042,B2043,B2044,B2045,B2046,B2047,B2048,B2049,B2050,B2051,B2052,B2053,B2054,B2055,B2056,B2057,B2058,B2059,B2060,B2061,B2062,B2063,B2064,B2065,B2066,B2067,B2068,B2069,B2070,B2071,B2072,B2073,B2074,B2075,B2076,B2077,B2078,B2079,B2080,B2081,B2082,B2083,B2084,B2085,B2086,B2087,B2088,B2089,B2090,B2091,B2092,B2093,B2094,B2095,B2096,B2097,B2098,B2099,B2100,B2101,B2102,B2103,B2104,B2105,B2106,B2107,B2108,B2109,B2110,B2111,B2112,B2113,B2114,B2115,B2116,B2117,B2118,B2119,B2120,B2121,B2122,B2123,B2124,B2125,B2126,B2127,B2128,B2129,B2130,B2131,B2132,B2133,B2134,B2135,B2136,B2137,B2138,B2139,B2140,B2141,B2142,B2143,B2144,B2145,B2146,B2147,B2148,B2149,B2150,B2151,B2152,B2153,B2154,B2155,B2156,B2157,B2158,B2159}
+@attribute Book_Title {Book_0,Book_1,Book_2,Book_3,Book_4,Book_5,Book_6,Book_7,Book_8,Book_9,Book_10,Book_11,Book_12,Book_13,Book_14,Book_15,Book_16,Book_17,Book_18,Book_19,Book_20,Book_21,Book_22,Book_23,Book_24,Book_25,Book_26,Book_27,Book_28,Book_29,Book_30,Book_31,Book_32,Book_33,Book_34,Book_35,Book_36,Book_37,Book_38,Book_39,Book_40,Book_41,Book_42,Book_43,Book_44,Book_45,Book_46,Book_47,Book_48,Book_49,Book_50,Book_51,Book_52,Book_53,Book_54,Book_55,Book_56,Book_57,Book_58,Book_59,Book_60,Book_61,Book_62,Book_63,Book_64,Book_65,Book_66,Book_67,Book_68,Book_69,Book_70,Book_71,Book_72,Book_73,Book_74,Book_75,Book_76,Book_77,Book_78,Book_79,Book_80,Book_81,Book_82,Book_83,Book_84,Book_85,Book_86,Book_87,Book_88,Book_89,Book_90,Book_91,Book_92,Book_93,Book_94,Book_95,Book_96,Book_97,Book_98,Book_99,Book_100,Book_101,Book_102,Book_103,Book_104,Book_105,Book_106,Book_107,Book_108,Book_109,Book_110,Book_111,Book_112,Book_113,Book_114,Book_115,Book_116,Book_117,Book_118,Book_119,Book_120,Book_121,Book_122,Book_123,Book_124,Book_125,Book_126,Book_127,Book_128,Book_129,Book_130,Book_131,Book_132,Book_133,Book_134,Book_135,Book_136,Book_137,Book_138,Book_139,Book_140,Book_141,Book_142,Book_143,Book_144,Book_145,Book_146,Book_147,Book_148,Book_149,Book_150,Book_151,Book_152,Book_153,Book_154,Book_155,Book_156,Book_157,Book_158,Book_159}
+@attribute Author_Name {Author_0,Author_1,Author_2,Author_3,Author_4,Author_5,Author_6,Author_7,Author_8,Author_9,Author_10,Author_11,Author_12,Author_13,Author_14,Author_15,Author_16,Author_17,Author_18,Author_19,Author_20,Author_21,Author_22,Author_23,Author_24,Author_25,Author_26,Author_27,Author_28,Author_29,Author_30,Author_31,Author_32,Author_33,Author_34,Author_35,Author_36,Author_37,Author_38,Author_39,Author_40,Author_41,Author_42,Author_43,Author_44,Author_45,Author_46,Author_47,Author_48,Author_49,Author_50,Author_51,Author_52,Author_53,Author_54,Author_55,Author_56,Author_57,Author_58,Author_59,Author_60,Author_61,Author_62,Author_63,Author_64,Author_65,Author_66,Author_67,Author_68,Author_69,Author_70,Author_71,Author_72,Author_73,Author_74,Author_75,Author_76,Author_77,Author_78,Author_79,Author_80,Author_81,Author_82,Author_83,Author_84,Author_85,Author_86,Author_87,Author_88,Author_89,Author_90,Author_91,Author_92,Author_93,Author_94,Author_95,Author_96,Author_97,Author_98,Author_99,Author_100,Author_101,Author_102,Author_103,Author_104,Author_105,Author_106,Author_107,Author_108,Author_109,Author_110,Author_111,Author_112,Author_113,Author_114,Author_115,Author_116,Author_117,Author_118,Author_119,Author_120,Author_121,Author_122,Author_123,Author_124,Author_125,Author_126,Author_127,Author_128,Author_129,Author_130,Author_131,Author_132,Author_133,Author_134,Author_135,Author_136,Author_137,Author_138,Author_139,Author_140,Author_141,Author_142,Author_143,Author_144,Author_145,Author_146,Author_147,Author_148,Author_149,Author_150,Author_151,Author_152,Author_153,Author_154,Author_155,Author_156,Author_157,Author_158,Author_159}
+@attribute Publisher {Pearson,Elsevier,Springer,Oxford,'McGraw Hill'}
+@attribute Book_Category {Math,Mechanical,Science,Electronics,Civil,Programming}
+@attribute ISBN_Number numeric
+@attribute Book_Edition numeric
+@attribute Language {Telugu,English,Hindi}
+@attribute Book_Price numeric
+@attribute Book_Rack_No numeric
+@attribute Book_Availability {No,Yes}
+@attribute Book_Condition {Damaged,Average,Good}
+@attribute Damage_Report {Minor,None,Major}
+@attribute Publication_Year numeric
+@attribute Pages numeric
+@attribute Binding_Type {Paperback,Hardcover}
+@attribute Edition_Type {Second,Revised,First}
+@attribute Print_Type {Color,Black&White}
+@attribute Genre {Textbook,Reference,Guide}
+@attribute Country_of_Publication {USA,India,UK}
+
+@data
